@@ -1,15 +1,15 @@
 =============
+The Purpose
+=============
+
+This project was created to provide a way of tracking visitor behavior in the café to help management determine ways to improve the overall experience of the museum.
+
+=============
 Requirements
 =============
 
 •	Download Arena Simulation software https://www.arenasimulation.com/simulation-software-download </br>
 •	Download @Risk here http://www.palisade.com/risk/
-
-=============
-The Purpose
-=============
-
-This project was created to provide a way of tracking visitor behavior in the café to help management determine ways to improve the overall experience of the museum.
 
 ================
 Process Summary
