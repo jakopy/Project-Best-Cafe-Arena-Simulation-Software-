@@ -1,0 +1,15 @@
+[RESOURCES]
+[VARIABLES]
+Demand Size
+Order More Stuff For Inventory?.NumberOut True
+Order Delay.NumberOut
+Inventory Level
+No Order Needed Manager Leaves.NumberOut
+little s
+Order More Stuff For Inventory?.NumberOut False
+Manager or Inventory Checker Comes in.NumberOut
+Dispose 3.NumberOut
+Order Delay.NumberIn
+Customer Comes in.NumberOut
+Big S
+Customer Leaves.NumberOut

@@ -1,0 +1,1861 @@
+
+                                      ARENA Simulation Results
+                                      Jacob - License: STUDENT
+
+                                  Summary for Replication 1 of 5
+
+Project: Unnamed Project                                             Run execution date :12/10/2015
+Analyst: Jacob                                                       Model revision date:12/10/2015
+
+Replication ended at time      : 10800.0 Seconds 
+Base Time Units: Seconds
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             978.28     (Insuf)    .00000     7318.5        164    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        164    
+Customer.WaitTime                           11.358     (Insuf)    .00000     145.47        164    
+Customer.TranTime                           215.78     (Insuf)    90.000     330.00        164    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        164    
+Customer.TotalTime                          1205.4     (Insuf)    114.96     7528.5        164    
+Gold Fish.VATime                                --         --         --         --          0
+Gold Fish.NVATime                               --         --         --         --          0
+Gold Fish.WaitTime                              --         --         --         --          0
+Gold Fish.TranTime                              --         --         --         --          0
+Gold Fish.OtherTime                             --         --         --         --          0
+Gold Fish.TotalTime                             --         --         --         --          0
+Cash Out.Queue.WaitingTime                  17.152     (Insuf)    .00000     145.47         63    
+Dining Process.Queue.WaitingTime            .00000     (Insuf)    .00000     .00000        149    
+Food Service Time.Queue.WaitingTime         .11472     (Insuf)    .00000     9.4067         82    
+Cash Register.Queue.WaitingTime             5.7513     (Insuf)    .00000     63.308         54    
+Special Order.Queue.WaitingTime             11.106     (Insuf)    .00000     120.89         49    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                20.786     (Corr)     .00000     35.000     20.000    
+Gold Fish.WIP                               22.665     (Insuf)    .00000     25.000     25.000    
+Wade.NumberBusy                             .18901     (Insuf)    .00000     1.0000     .00000    
+Wade.NumberScheduled                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Wade.Utilization                            .18901     (Insuf)    .00000     1.0000     .00000    
+Tommie.NumberBusy                           .09703     (Insuf)    .00000     1.0000     .00000    
+Tommie.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Tommie.Utilization                          .09703     (Insuf)    .00000     1.0000     .00000    
+Table 10.NumberBusy                         .44088     (Insuf)    .00000     1.0000     .00000    
+Table 10.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 10.Utilization                        .44088     (Insuf)    .00000     1.0000     .00000    
+Table 11.NumberBusy                         .51782     (Insuf)    .00000     1.0000     1.0000    
+Table 11.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 11.Utilization                        .51782     (Insuf)    .00000     1.0000     1.0000    
+Table 12.NumberBusy                         .42607     (Insuf)    .00000     1.0000     1.0000    
+Table 12.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 12.Utilization                        .42607     (Insuf)    .00000     1.0000     1.0000    
+Table 13.NumberBusy                         .42306     (Insuf)    .00000     1.0000     .00000    
+Table 13.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 13.Utilization                        .42306     (Insuf)    .00000     1.0000     .00000    
+Table 14.NumberBusy                         .35238     (Insuf)    .00000     1.0000     1.0000    
+Table 14.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 14.Utilization                        .35238     (Insuf)    .00000     1.0000     1.0000    
+Table 15.NumberBusy                         .15274     (Insuf)    .00000     1.0000     .00000    
+Table 15.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 15.Utilization                        .15274     (Insuf)    .00000     1.0000     .00000    
+Table 16.NumberBusy                         .12474     (Insuf)    .00000     1.0000     .00000    
+Table 16.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 16.Utilization                        .12474     (Insuf)    .00000     1.0000     .00000    
+Table 17.NumberBusy                         .39594     (Insuf)    .00000     1.0000     .00000    
+Table 17.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 17.Utilization                        .39594     (Insuf)    .00000     1.0000     .00000    
+Table 18.NumberBusy                         .50842     (Insuf)    .00000     1.0000     .00000    
+Table 18.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 18.Utilization                        .50842     (Insuf)    .00000     1.0000     .00000    
+Table 1.NumberBusy                          .33612     (Insuf)    .00000     1.0000     .00000    
+Table 1.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 1.Utilization                         .33612     (Insuf)    .00000     1.0000     .00000    
+Table 19.NumberBusy                         .31248     (Insuf)    .00000     1.0000     .00000    
+Table 19.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 19.Utilization                        .31248     (Insuf)    .00000     1.0000     .00000    
+Table 2.NumberBusy                          .68108     (Insuf)    .00000     1.0000     .00000    
+Table 2.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 2.Utilization                         .68108     (Insuf)    .00000     1.0000     .00000    
+Table 3.NumberBusy                          .60253     (Insuf)    .00000     1.0000     1.0000    
+Table 3.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 3.Utilization                         .60253     (Insuf)    .00000     1.0000     1.0000    
+Table 4.NumberBusy                          .50252     (Insuf)    .00000     1.0000     .00000    
+Table 4.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 4.Utilization                         .50252     (Insuf)    .00000     1.0000     .00000    
+Table 5.NumberBusy                          .46444     (Insuf)    .00000     1.0000     1.0000    
+Table 5.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 5.Utilization                         .46444     (Insuf)    .00000     1.0000     1.0000    
+Table 6.NumberBusy                          .39524     (Insuf)    .00000     1.0000     1.0000    
+Table 6.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 6.Utilization                         .39524     (Insuf)    .00000     1.0000     1.0000    
+Table 7.NumberBusy                          .47032     (Insuf)    .00000     1.0000     .00000    
+Table 7.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 7.Utilization                         .47032     (Insuf)    .00000     1.0000     .00000    
+Table 8.NumberBusy                          .48605     (Insuf)    .00000     1.0000     .00000    
+Table 8.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 8.Utilization                         .48605     (Insuf)    .00000     1.0000     .00000    
+Table 9.NumberBusy                          .42193     (Insuf)    .00000     1.0000     .00000    
+Table 9.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 9.Utilization                         .42193     (Insuf)    .00000     1.0000     .00000    
+Barista.NumberBusy                          .27869     (Insuf)    .00000     1.0000     1.0000    
+Barista.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Barista.Utilization                         .27869     (Insuf)    .00000     1.0000     1.0000    
+Table 20.NumberBusy                         .31078     (Insuf)    .00000     1.0000     .00000    
+Table 20.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 20.Utilization                        .31078     (Insuf)    .00000     1.0000     .00000    
+Table 21.NumberBusy                         .36532     (Insuf)    .00000     1.0000     1.0000    
+Table 21.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 21.Utilization                        .36532     (Insuf)    .00000     1.0000     1.0000    
+Table 22.NumberBusy                         .19806     (Insuf)    .00000     1.0000     1.0000    
+Table 22.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 22.Utilization                        .19806     (Insuf)    .00000     1.0000     1.0000    
+Table 23.NumberBusy                         .27597     (Insuf)    .00000     1.0000     .00000    
+Table 23.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 23.Utilization                        .27597     (Insuf)    .00000     1.0000     .00000    
+Table 24.NumberBusy                         .32160     (Insuf)    .00000     1.0000     .00000    
+Table 24.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 24.Utilization                        .32160     (Insuf)    .00000     1.0000     .00000    
+Table 25.NumberBusy                         .10950     (Insuf)    .00000     1.0000     .00000    
+Table 25.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 25.Utilization                        .10950     (Insuf)    .00000     1.0000     .00000    
+Table 26.NumberBusy                         .39249     (Insuf)    .00000     1.0000     .00000    
+Table 26.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 26.Utilization                        .39249     (Insuf)    .00000     1.0000     .00000    
+Table 27.NumberBusy                         .32616     (Insuf)    .00000     1.0000     .00000    
+Table 27.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 27.Utilization                        .32616     (Insuf)    .00000     1.0000     .00000    
+Table 28.NumberBusy                         .30151     (Insuf)    .00000     1.0000     .00000    
+Table 28.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 28.Utilization                        .30151     (Insuf)    .00000     1.0000     .00000    
+Table 29.NumberBusy                         .30805     (Insuf)    .00000     1.0000     .00000    
+Table 29.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 29.Utilization                        .30805     (Insuf)    .00000     1.0000     .00000    
+Table 30.NumberBusy                         .17152     (Insuf)    .00000     1.0000     .00000    
+Table 30.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 30.Utilization                        .17152     (Insuf)    .00000     1.0000     .00000    
+Table 31.NumberBusy                         .39660     (Insuf)    .00000     1.0000     .00000    
+Table 31.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 31.Utilization                        .39660     (Insuf)    .00000     1.0000     .00000    
+Table 32.NumberBusy                         .31054     (Insuf)    .00000     1.0000     .00000    
+Table 32.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 32.Utilization                        .31054     (Insuf)    .00000     1.0000     .00000    
+Table 33.NumberBusy                         .23486     (Insuf)    .00000     1.0000     1.0000    
+Table 33.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 33.Utilization                        .23486     (Insuf)    .00000     1.0000     1.0000    
+Table 34.NumberBusy                         .11488     (Insuf)    .00000     1.0000     1.0000    
+Table 34.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 34.Utilization                        .11488     (Insuf)    .00000     1.0000     1.0000    
+Table 35.NumberBusy                         .02045     (Insuf)    .00000     1.0000     .00000    
+Table 35.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 35.Utilization                        .02045     (Insuf)    .00000     1.0000     .00000    
+Table 36.NumberBusy                         .39242     (Insuf)    .00000     1.0000     .00000    
+Table 36.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 36.Utilization                        .39242     (Insuf)    .00000     1.0000     .00000    
+Table 37.NumberBusy                         .08034     (Insuf)    .00000     1.0000     .00000    
+Table 37.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 37.Utilization                        .08034     (Insuf)    .00000     1.0000     .00000    
+Table 38.NumberBusy                         .19834     (Insuf)    .00000     1.0000     .00000    
+Table 38.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 38.Utilization                        .19834     (Insuf)    .00000     1.0000     .00000    
+Table 39.NumberBusy                         .37744     (Insuf)    .00000     1.0000     1.0000    
+Table 39.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 39.Utilization                        .37744     (Insuf)    .00000     1.0000     1.0000    
+Table 40.NumberBusy                         .19821     (Insuf)    .00000     1.0000     .00000    
+Table 40.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 40.Utilization                        .19821     (Insuf)    .00000     1.0000     .00000    
+Table 41.NumberBusy                         .14831     (Insuf)    .00000     1.0000     .00000    
+Table 41.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 41.Utilization                        .14831     (Insuf)    .00000     1.0000     .00000    
+Table 42.NumberBusy                         .36538     (Insuf)    .00000     1.0000     .00000    
+Table 42.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 42.Utilization                        .36538     (Insuf)    .00000     1.0000     .00000    
+Table 43.NumberBusy                         .71597     (Insuf)    .00000     1.0000     1.0000    
+Table 43.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 43.Utilization                        .71597     (Insuf)    .00000     1.0000     1.0000    
+Table 44.NumberBusy                         .14706     (Insuf)    .00000     1.0000     .00000    
+Table 44.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 44.Utilization                        .14706     (Insuf)    .00000     1.0000     .00000    
+Table 45.NumberBusy                         .29241     (Insuf)    .00000     1.0000     1.0000    
+Table 45.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 45.Utilization                        .29241     (Insuf)    .00000     1.0000     1.0000    
+Table 46.NumberBusy                         .14435     (Insuf)    .00000     1.0000     1.0000    
+Table 46.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 46.Utilization                        .14435     (Insuf)    .00000     1.0000     1.0000    
+Table 47.NumberBusy                         .16464     (Insuf)    .00000     1.0000     1.0000    
+Table 47.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 47.Utilization                        .16464     (Insuf)    .00000     1.0000     1.0000    
+Table 48.NumberBusy                         .03545     (Insuf)    .00000     1.0000     1.0000    
+Table 48.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 48.Utilization                        .03545     (Insuf)    .00000     1.0000     1.0000    
+Table 49.NumberBusy                         .15987     (Insuf)    .00000     1.0000     .00000    
+Table 49.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 49.Utilization                        .15987     (Insuf)    .00000     1.0000     .00000    
+Table 50.NumberBusy                         .64434     (Insuf)    .00000     1.0000     .00000    
+Table 50.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 50.Utilization                        .64434     (Insuf)    .00000     1.0000     .00000    
+Jacob.NumberBusy                            .08132     (Insuf)    .00000     1.0000     1.0000    
+Jacob.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Jacob.Utilization                           .08132     (Insuf)    .00000     1.0000     1.0000    
+Bar Cash.NumberBusy                         .25994     (Insuf)    .00000     1.0000     .00000    
+Bar Cash.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Bar Cash.Utilization                        .25994     (Insuf)    .00000     1.0000     .00000    
+Mikki.NumberBusy                            .00000     (Insuf)    .00000     .00000     .00000    
+Mikki.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Mikki.Utilization                           .00000     (Insuf)    .00000     .00000     .00000    
+Lynice.NumberBusy                           .00000     (Insuf)    .00000     .00000     .00000    
+Lynice.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Lynice.Utilization                          .00000     (Insuf)    .00000     .00000     .00000    
+Cash Out.Queue.NumberInQueue                .10006     (Insuf)    .00000     3.0000     .00000    
+Dining Process.Queue.NumberInQueue          .00000     (Insuf)    .00000     .00000     .00000    
+Food Service Time.Queue.NumberInQueue       8.7099E-04 (Insuf)    .00000     1.0000     .00000    
+Cash Register.Queue.NumberInQueue           .02876     (Insuf)    .00000     2.0000     .00000    
+Special Order.Queue.NumberInQueue           .05039     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           184.00    
+Customer.NumberOut                          164.00    
+Gold Fish.NumberIn                          25.000    
+Gold Fish.NumberOut                         .00000    
+Wade.NumberSeized                           54.000    
+Wade.ScheduledUtilization                   .18901    
+Tommie.NumberSeized                         44.000    
+Tommie.ScheduledUtilization                 .09703    
+Table 10.NumberSeized                       5.0000    
+Table 10.ScheduledUtilization               .44088    
+Table 11.NumberSeized                       4.0000    
+Table 11.ScheduledUtilization               .51782    
+Table 12.NumberSeized                       4.0000    
+Table 12.ScheduledUtilization               .42607    
+Table 13.NumberSeized                       2.0000    
+Table 13.ScheduledUtilization               .42306    
+Table 14.NumberSeized                       2.0000    
+Table 14.ScheduledUtilization               .35238    
+Table 15.NumberSeized                       4.0000    
+Table 15.ScheduledUtilization               .15274    
+Table 16.NumberSeized                       2.0000    
+Table 16.ScheduledUtilization               .12474    
+Table 17.NumberSeized                       2.0000    
+Table 17.ScheduledUtilization               .39594    
+Table 18.NumberSeized                       1.0000    
+Table 18.ScheduledUtilization               .50842    
+Table 1.NumberSeized                        4.0000    
+Table 1.ScheduledUtilization                .33612    
+Table 19.NumberSeized                       2.0000    
+Table 19.ScheduledUtilization               .31248    
+Table 2.NumberSeized                        2.0000    
+Table 2.ScheduledUtilization                .68108    
+Table 3.NumberSeized                        7.0000    
+Table 3.ScheduledUtilization                .60253    
+Table 4.NumberSeized                        4.0000    
+Table 4.ScheduledUtilization                .50252    
+Table 5.NumberSeized                        4.0000    
+Table 5.ScheduledUtilization                .46444    
+Table 6.NumberSeized                        3.0000    
+Table 6.ScheduledUtilization                .39524    
+Table 7.NumberSeized                        4.0000    
+Table 7.ScheduledUtilization                .47032    
+Table 8.NumberSeized                        2.0000    
+Table 8.ScheduledUtilization                .48605    
+Table 9.NumberSeized                        4.0000    
+Table 9.ScheduledUtilization                .42193    
+Barista.NumberSeized                        49.000    
+Barista.ScheduledUtilization                .27869    
+Table 20.NumberSeized                       2.0000    
+Table 20.ScheduledUtilization               .31078    
+Table 21.NumberSeized                       3.0000    
+Table 21.ScheduledUtilization               .36532    
+Table 22.NumberSeized                       3.0000    
+Table 22.ScheduledUtilization               .19806    
+Table 23.NumberSeized                       3.0000    
+Table 23.ScheduledUtilization               .27597    
+Table 24.NumberSeized                       3.0000    
+Table 24.ScheduledUtilization               .32160    
+Table 25.NumberSeized                       1.0000    
+Table 25.ScheduledUtilization               .10950    
+Table 26.NumberSeized                       4.0000    
+Table 26.ScheduledUtilization               .39249    
+Table 27.NumberSeized                       5.0000    
+Table 27.ScheduledUtilization               .32616    
+Table 28.NumberSeized                       1.0000    
+Table 28.ScheduledUtilization               .30151    
+Table 29.NumberSeized                       2.0000    
+Table 29.ScheduledUtilization               .30805    
+Table 30.NumberSeized                       2.0000    
+Table 30.ScheduledUtilization               .17152    
+Table 31.NumberSeized                       3.0000    
+Table 31.ScheduledUtilization               .39660    
+Table 32.NumberSeized                       3.0000    
+Table 32.ScheduledUtilization               .31054    
+Table 33.NumberSeized                       4.0000    
+Table 33.ScheduledUtilization               .23486    
+Table 34.NumberSeized                       3.0000    
+Table 34.ScheduledUtilization               .11488    
+Table 35.NumberSeized                       1.0000    
+Table 35.ScheduledUtilization               .02045    
+Table 36.NumberSeized                       2.0000    
+Table 36.ScheduledUtilization               .39242    
+Table 37.NumberSeized                       2.0000    
+Table 37.ScheduledUtilization               .08034    
+Table 38.NumberSeized                       3.0000    
+Table 38.ScheduledUtilization               .19834    
+Table 39.NumberSeized                       3.0000    
+Table 39.ScheduledUtilization               .37744    
+Table 40.NumberSeized                       5.0000    
+Table 40.ScheduledUtilization               .19821    
+Table 41.NumberSeized                       2.0000    
+Table 41.ScheduledUtilization               .14831    
+Table 42.NumberSeized                       4.0000    
+Table 42.ScheduledUtilization               .36538    
+Table 43.NumberSeized                       3.0000    
+Table 43.ScheduledUtilization               .71597    
+Table 44.NumberSeized                       3.0000    
+Table 44.ScheduledUtilization               .14706    
+Table 45.NumberSeized                       4.0000    
+Table 45.ScheduledUtilization               .29241    
+Table 46.NumberSeized                       2.0000    
+Table 46.ScheduledUtilization               .14435    
+Table 47.NumberSeized                       2.0000    
+Table 47.ScheduledUtilization               .16464    
+Table 48.NumberSeized                       3.0000    
+Table 48.ScheduledUtilization               .03545    
+Table 49.NumberSeized                       4.0000    
+Table 49.ScheduledUtilization               .15987    
+Table 50.NumberSeized                       2.0000    
+Table 50.ScheduledUtilization               .64434    
+Jacob.NumberSeized                          38.000    
+Jacob.ScheduledUtilization                  .08132    
+Bar Cash.NumberSeized                       63.000    
+Bar Cash.ScheduledUtilization               .25994    
+Mikki.NumberSeized                          .00000    
+Mikki.ScheduledUtilization                  .00000    
+Lynice.NumberSeized                         .00000    
+Lynice.ScheduledUtilization                 .00000    
+System.NumberOut                            164.00    
+
+Beginning replication 2 of 5
+
+                                      ARENA Simulation Results
+                                      Jacob - License: STUDENT
+
+                                  Summary for Replication 2 of 5
+
+Project: Unnamed Project                                             Run execution date :12/10/2015
+Analyst: Jacob                                                       Model revision date:12/10/2015
+
+Replication ended at time      : 10800.0 Seconds 
+Base Time Units: Seconds
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             915.35     (Insuf)    .00000     4778.4        169    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        169    
+Customer.WaitTime                           12.305     (Insuf)    .00000     192.71        169    
+Customer.TranTime                           204.39     (Insuf)    90.000     330.00        169    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        169    
+Customer.TotalTime                          1132.0     (Insuf)    111.56     4988.4        169    
+Gold Fish.VATime                                --         --         --         --          0
+Gold Fish.NVATime                               --         --         --         --          0
+Gold Fish.WaitTime                              --         --         --         --          0
+Gold Fish.TranTime                              --         --         --         --          0
+Gold Fish.OtherTime                             --         --         --         --          0
+Gold Fish.TotalTime                             --         --         --         --          0
+Cash Out.Queue.WaitingTime                  11.212     (Insuf)    .00000     103.07         58    
+Dining Process.Queue.WaitingTime            .00000     (Insuf)    .00000     .00000        146    
+Food Service Time.Queue.WaitingTime         .21868     (Insuf)    .00000     18.681         99    
+Cash Register.Queue.WaitingTime             5.5508     (Insuf)    .00000     81.758         72    
+Special Order.Queue.WaitingTime             21.755     (Insuf)    .00000     192.71         52    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                22.004     (Corr)     .00000     33.000     29.000    
+Gold Fish.WIP                               23.420     (Insuf)    .00000     25.000     25.000    
+Wade.NumberBusy                             .25066     (Insuf)    .00000     1.0000     1.0000    
+Wade.NumberScheduled                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Wade.Utilization                            .25066     (Insuf)    .00000     1.0000     1.0000    
+Tommie.NumberBusy                           .11882     (Insuf)    .00000     1.0000     .00000    
+Tommie.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Tommie.Utilization                          .11882     (Insuf)    .00000     1.0000     .00000    
+Table 10.NumberBusy                         .28512     (Insuf)    .00000     1.0000     .00000    
+Table 10.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 10.Utilization                        .28512     (Insuf)    .00000     1.0000     .00000    
+Table 11.NumberBusy                         .21461     (Insuf)    .00000     1.0000     .00000    
+Table 11.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 11.Utilization                        .21461     (Insuf)    .00000     1.0000     .00000    
+Table 12.NumberBusy                         .16685     (Insuf)    .00000     1.0000     .00000    
+Table 12.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 12.Utilization                        .16685     (Insuf)    .00000     1.0000     .00000    
+Table 13.NumberBusy                         .30573     (Insuf)    .00000     1.0000     1.0000    
+Table 13.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 13.Utilization                        .30573     (Insuf)    .00000     1.0000     1.0000    
+Table 14.NumberBusy                         .06676     (Insuf)    .00000     1.0000     .00000    
+Table 14.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 14.Utilization                        .06676     (Insuf)    .00000     1.0000     .00000    
+Table 15.NumberBusy                         .20286     (Insuf)    .00000     1.0000     .00000    
+Table 15.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 15.Utilization                        .20286     (Insuf)    .00000     1.0000     .00000    
+Table 16.NumberBusy                         .33586     (Insuf)    .00000     1.0000     .00000    
+Table 16.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 16.Utilization                        .33586     (Insuf)    .00000     1.0000     .00000    
+Table 17.NumberBusy                         .46779     (Insuf)    .00000     1.0000     .00000    
+Table 17.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 17.Utilization                        .46779     (Insuf)    .00000     1.0000     .00000    
+Table 18.NumberBusy                         .29393     (Insuf)    .00000     1.0000     .00000    
+Table 18.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 18.Utilization                        .29393     (Insuf)    .00000     1.0000     .00000    
+Table 1.NumberBusy                          .36413     (Insuf)    .00000     1.0000     1.0000    
+Table 1.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 1.Utilization                         .36413     (Insuf)    .00000     1.0000     1.0000    
+Table 19.NumberBusy                         .33031     (Insuf)    .00000     1.0000     1.0000    
+Table 19.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 19.Utilization                        .33031     (Insuf)    .00000     1.0000     1.0000    
+Table 2.NumberBusy                          .26661     (Insuf)    .00000     1.0000     1.0000    
+Table 2.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 2.Utilization                         .26661     (Insuf)    .00000     1.0000     1.0000    
+Table 3.NumberBusy                          .24747     (Insuf)    .00000     1.0000     .00000    
+Table 3.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 3.Utilization                         .24747     (Insuf)    .00000     1.0000     .00000    
+Table 4.NumberBusy                          .58639     (Insuf)    .00000     1.0000     1.0000    
+Table 4.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 4.Utilization                         .58639     (Insuf)    .00000     1.0000     1.0000    
+Table 5.NumberBusy                          .69142     (Insuf)    .00000     1.0000     1.0000    
+Table 5.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 5.Utilization                         .69142     (Insuf)    .00000     1.0000     1.0000    
+Table 6.NumberBusy                          .27717     (Insuf)    .00000     1.0000     .00000    
+Table 6.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 6.Utilization                         .27717     (Insuf)    .00000     1.0000     .00000    
+Table 7.NumberBusy                          .52859     (Insuf)    .00000     1.0000     .00000    
+Table 7.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 7.Utilization                         .52859     (Insuf)    .00000     1.0000     .00000    
+Table 8.NumberBusy                          .35255     (Insuf)    .00000     1.0000     .00000    
+Table 8.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 8.Utilization                         .35255     (Insuf)    .00000     1.0000     .00000    
+Table 9.NumberBusy                          .25717     (Insuf)    .00000     1.0000     .00000    
+Table 9.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 9.Utilization                         .25717     (Insuf)    .00000     1.0000     .00000    
+Barista.NumberBusy                          .32512     (Insuf)    .00000     1.0000     .00000    
+Barista.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Barista.Utilization                         .32512     (Insuf)    .00000     1.0000     .00000    
+Table 20.NumberBusy                         .29292     (Insuf)    .00000     1.0000     .00000    
+Table 20.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 20.Utilization                        .29292     (Insuf)    .00000     1.0000     .00000    
+Table 21.NumberBusy                         .62040     (Insuf)    .00000     1.0000     .00000    
+Table 21.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 21.Utilization                        .62040     (Insuf)    .00000     1.0000     .00000    
+Table 22.NumberBusy                         .27680     (Insuf)    .00000     1.0000     1.0000    
+Table 22.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 22.Utilization                        .27680     (Insuf)    .00000     1.0000     1.0000    
+Table 23.NumberBusy                         .18166     (Insuf)    .00000     1.0000     .00000    
+Table 23.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 23.Utilization                        .18166     (Insuf)    .00000     1.0000     .00000    
+Table 24.NumberBusy                         .26647     (Insuf)    .00000     1.0000     1.0000    
+Table 24.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 24.Utilization                        .26647     (Insuf)    .00000     1.0000     1.0000    
+Table 25.NumberBusy                         .21068     (Insuf)    .00000     1.0000     1.0000    
+Table 25.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 25.Utilization                        .21068     (Insuf)    .00000     1.0000     1.0000    
+Table 26.NumberBusy                         .27579     (Insuf)    .00000     1.0000     1.0000    
+Table 26.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 26.Utilization                        .27579     (Insuf)    .00000     1.0000     1.0000    
+Table 27.NumberBusy                         .29332     (Insuf)    .00000     1.0000     1.0000    
+Table 27.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 27.Utilization                        .29332     (Insuf)    .00000     1.0000     1.0000    
+Table 28.NumberBusy                         .02150     (Insuf)    .00000     1.0000     .00000    
+Table 28.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 28.Utilization                        .02150     (Insuf)    .00000     1.0000     .00000    
+Table 29.NumberBusy                         .15667     (Insuf)    .00000     1.0000     .00000    
+Table 29.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 29.Utilization                        .15667     (Insuf)    .00000     1.0000     .00000    
+Table 30.NumberBusy                         .15268     (Insuf)    .00000     1.0000     .00000    
+Table 30.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 30.Utilization                        .15268     (Insuf)    .00000     1.0000     .00000    
+Table 31.NumberBusy                         .00000     (Insuf)    .00000     .00000     .00000    
+Table 31.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 31.Utilization                        .00000     (Insuf)    .00000     .00000     .00000    
+Table 32.NumberBusy                         .26628     (Insuf)    .00000     1.0000     1.0000    
+Table 32.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 32.Utilization                        .26628     (Insuf)    .00000     1.0000     1.0000    
+Table 33.NumberBusy                         .20416     (Insuf)    .00000     1.0000     1.0000    
+Table 33.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 33.Utilization                        .20416     (Insuf)    .00000     1.0000     1.0000    
+Table 34.NumberBusy                         .45267     (Insuf)    .00000     1.0000     1.0000    
+Table 34.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 34.Utilization                        .45267     (Insuf)    .00000     1.0000     1.0000    
+Table 35.NumberBusy                         .43699     (Insuf)    .00000     1.0000     .00000    
+Table 35.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 35.Utilization                        .43699     (Insuf)    .00000     1.0000     .00000    
+Table 36.NumberBusy                         .20605     (Insuf)    .00000     1.0000     .00000    
+Table 36.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 36.Utilization                        .20605     (Insuf)    .00000     1.0000     .00000    
+Table 37.NumberBusy                         .74343     (Insuf)    .00000     1.0000     .00000    
+Table 37.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 37.Utilization                        .74343     (Insuf)    .00000     1.0000     .00000    
+Table 38.NumberBusy                         .60422     (Insuf)    .00000     1.0000     .00000    
+Table 38.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 38.Utilization                        .60422     (Insuf)    .00000     1.0000     .00000    
+Table 39.NumberBusy                         .60688     (Insuf)    .00000     1.0000     .00000    
+Table 39.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 39.Utilization                        .60688     (Insuf)    .00000     1.0000     .00000    
+Table 40.NumberBusy                         .49285     (Insuf)    .00000     1.0000     .00000    
+Table 40.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 40.Utilization                        .49285     (Insuf)    .00000     1.0000     .00000    
+Table 41.NumberBusy                         .51430     (Insuf)    .00000     1.0000     .00000    
+Table 41.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 41.Utilization                        .51430     (Insuf)    .00000     1.0000     .00000    
+Table 42.NumberBusy                         .40900     (Insuf)    .00000     1.0000     .00000    
+Table 42.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 42.Utilization                        .40900     (Insuf)    .00000     1.0000     .00000    
+Table 43.NumberBusy                         .60533     (Insuf)    .00000     1.0000     1.0000    
+Table 43.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 43.Utilization                        .60533     (Insuf)    .00000     1.0000     1.0000    
+Table 44.NumberBusy                         .31993     (Insuf)    .00000     1.0000     1.0000    
+Table 44.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 44.Utilization                        .31993     (Insuf)    .00000     1.0000     1.0000    
+Table 45.NumberBusy                         .37003     (Insuf)    .00000     1.0000     .00000    
+Table 45.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 45.Utilization                        .37003     (Insuf)    .00000     1.0000     .00000    
+Table 46.NumberBusy                         .29542     (Insuf)    .00000     1.0000     .00000    
+Table 46.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 46.Utilization                        .29542     (Insuf)    .00000     1.0000     .00000    
+Table 47.NumberBusy                         .43020     (Insuf)    .00000     1.0000     1.0000    
+Table 47.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 47.Utilization                        .43020     (Insuf)    .00000     1.0000     1.0000    
+Table 48.NumberBusy                         .46075     (Insuf)    .00000     1.0000     1.0000    
+Table 48.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 48.Utilization                        .46075     (Insuf)    .00000     1.0000     1.0000    
+Table 49.NumberBusy                         .27811     (Insuf)    .00000     1.0000     .00000    
+Table 49.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 49.Utilization                        .27811     (Insuf)    .00000     1.0000     .00000    
+Table 50.NumberBusy                         .58691     (Insuf)    .00000     1.0000     1.0000    
+Table 50.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 50.Utilization                        .58691     (Insuf)    .00000     1.0000     1.0000    
+Jacob.NumberBusy                            .12566     (Insuf)    .00000     1.0000     .00000    
+Jacob.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Jacob.Utilization                           .12566     (Insuf)    .00000     1.0000     .00000    
+Bar Cash.NumberBusy                         .23576     (Insuf)    .00000     1.0000     .00000    
+Bar Cash.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Bar Cash.Utilization                        .23576     (Insuf)    .00000     1.0000     .00000    
+Mikki.NumberBusy                            .00000     (Insuf)    .00000     .00000     .00000    
+Mikki.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Mikki.Utilization                           .00000     (Insuf)    .00000     .00000     .00000    
+Lynice.NumberBusy                           .00000     (Insuf)    .00000     .00000     .00000    
+Lynice.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Lynice.Utilization                          .00000     (Insuf)    .00000     .00000     .00000    
+Cash Out.Queue.NumberInQueue                .06022     (Insuf)    .00000     2.0000     .00000    
+Dining Process.Queue.NumberInQueue          .00000     (Insuf)    .00000     .00000     .00000    
+Food Service Time.Queue.NumberInQueue       .00200     (Insuf)    .00000     1.0000     .00000    
+Cash Register.Queue.NumberInQueue           .03701     (Insuf)    .00000     2.0000     .00000    
+Special Order.Queue.NumberInQueue           .10475     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           198.00    
+Customer.NumberOut                          169.00    
+Gold Fish.NumberIn                          25.000    
+Gold Fish.NumberOut                         .00000    
+Wade.NumberSeized                           72.000    
+Wade.ScheduledUtilization                   .25066    
+Tommie.NumberSeized                         47.000    
+Tommie.ScheduledUtilization                 .11882    
+Table 10.NumberSeized                       1.0000    
+Table 10.ScheduledUtilization               .28512    
+Table 11.NumberSeized                       7.0000    
+Table 11.ScheduledUtilization               .21461    
+Table 12.NumberSeized                       2.0000    
+Table 12.ScheduledUtilization               .16685    
+Table 13.NumberSeized                       2.0000    
+Table 13.ScheduledUtilization               .30573    
+Table 14.NumberSeized                       1.0000    
+Table 14.ScheduledUtilization               .06676    
+Table 15.NumberSeized                       2.0000    
+Table 15.ScheduledUtilization               .20286    
+Table 16.NumberSeized                       2.0000    
+Table 16.ScheduledUtilization               .33586    
+Table 17.NumberSeized                       4.0000    
+Table 17.ScheduledUtilization               .46779    
+Table 18.NumberSeized                       2.0000    
+Table 18.ScheduledUtilization               .29393    
+Table 1.NumberSeized                        3.0000    
+Table 1.ScheduledUtilization                .36413    
+Table 19.NumberSeized                       3.0000    
+Table 19.ScheduledUtilization               .33031    
+Table 2.NumberSeized                        5.0000    
+Table 2.ScheduledUtilization                .26661    
+Table 3.NumberSeized                        3.0000    
+Table 3.ScheduledUtilization                .24747    
+Table 4.NumberSeized                        3.0000    
+Table 4.ScheduledUtilization                .58639    
+Table 5.NumberSeized                        5.0000    
+Table 5.ScheduledUtilization                .69142    
+Table 6.NumberSeized                        4.0000    
+Table 6.ScheduledUtilization                .27717    
+Table 7.NumberSeized                        5.0000    
+Table 7.ScheduledUtilization                .52859    
+Table 8.NumberSeized                        2.0000    
+Table 8.ScheduledUtilization                .35255    
+Table 9.NumberSeized                        3.0000    
+Table 9.ScheduledUtilization                .25717    
+Barista.NumberSeized                        52.000    
+Barista.ScheduledUtilization                .32512    
+Table 20.NumberSeized                       2.0000    
+Table 20.ScheduledUtilization               .29292    
+Table 21.NumberSeized                       3.0000    
+Table 21.ScheduledUtilization               .62040    
+Table 22.NumberSeized                       3.0000    
+Table 22.ScheduledUtilization               .27680    
+Table 23.NumberSeized                       1.0000    
+Table 23.ScheduledUtilization               .18166    
+Table 24.NumberSeized                       1.0000    
+Table 24.ScheduledUtilization               .26647    
+Table 25.NumberSeized                       3.0000    
+Table 25.ScheduledUtilization               .21068    
+Table 26.NumberSeized                       6.0000    
+Table 26.ScheduledUtilization               .27579    
+Table 27.NumberSeized                       2.0000    
+Table 27.ScheduledUtilization               .29332    
+Table 28.NumberSeized                       1.0000    
+Table 28.ScheduledUtilization               .02150    
+Table 29.NumberSeized                       2.0000    
+Table 29.ScheduledUtilization               .15667    
+Table 30.NumberSeized                       3.0000    
+Table 30.ScheduledUtilization               .15268    
+Table 31.NumberSeized                       .00000    
+Table 31.ScheduledUtilization               .00000    
+Table 32.NumberSeized                       2.0000    
+Table 32.ScheduledUtilization               .26628    
+Table 33.NumberSeized                       2.0000    
+Table 33.ScheduledUtilization               .20416    
+Table 34.NumberSeized                       4.0000    
+Table 34.ScheduledUtilization               .45267    
+Table 35.NumberSeized                       3.0000    
+Table 35.ScheduledUtilization               .43699    
+Table 36.NumberSeized                       2.0000    
+Table 36.ScheduledUtilization               .20605    
+Table 37.NumberSeized                       5.0000    
+Table 37.ScheduledUtilization               .74343    
+Table 38.NumberSeized                       5.0000    
+Table 38.ScheduledUtilization               .60422    
+Table 39.NumberSeized                       6.0000    
+Table 39.ScheduledUtilization               .60688    
+Table 40.NumberSeized                       6.0000    
+Table 40.ScheduledUtilization               .49285    
+Table 41.NumberSeized                       2.0000    
+Table 41.ScheduledUtilization               .51430    
+Table 42.NumberSeized                       3.0000    
+Table 42.ScheduledUtilization               .40900    
+Table 43.NumberSeized                       3.0000    
+Table 43.ScheduledUtilization               .60533    
+Table 44.NumberSeized                       3.0000    
+Table 44.ScheduledUtilization               .31993    
+Table 45.NumberSeized                       1.0000    
+Table 45.ScheduledUtilization               .37003    
+Table 46.NumberSeized                       3.0000    
+Table 46.ScheduledUtilization               .29542    
+Table 47.NumberSeized                       2.0000    
+Table 47.ScheduledUtilization               .43020    
+Table 48.NumberSeized                       3.0000    
+Table 48.ScheduledUtilization               .46075    
+Table 49.NumberSeized                       2.0000    
+Table 49.ScheduledUtilization               .27811    
+Table 50.NumberSeized                       3.0000    
+Table 50.ScheduledUtilization               .58691    
+Jacob.NumberSeized                          52.000    
+Jacob.ScheduledUtilization                  .12566    
+Bar Cash.NumberSeized                       58.000    
+Bar Cash.ScheduledUtilization               .23576    
+Mikki.NumberSeized                          .00000    
+Mikki.ScheduledUtilization                  .00000    
+Lynice.NumberSeized                         .00000    
+Lynice.ScheduledUtilization                 .00000    
+System.NumberOut                            169.00    
+
+Beginning replication 3 of 5
+
+                                      ARENA Simulation Results
+                                      Jacob - License: STUDENT
+
+                                  Summary for Replication 3 of 5
+
+Project: Unnamed Project                                             Run execution date :12/10/2015
+Analyst: Jacob                                                       Model revision date:12/10/2015
+
+Replication ended at time      : 10800.0 Seconds 
+Base Time Units: Seconds
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             1076.7     (Insuf)    .00000     5087.4        141    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        141    
+Customer.WaitTime                           8.2628     (Insuf)    .00000     109.90        141    
+Customer.TranTime                           219.06     (Insuf)    90.000     330.00        141    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        141    
+Customer.TotalTime                          1304.0     (Insuf)    126.37     5327.4        141    
+Gold Fish.VATime                                --         --         --         --          0
+Gold Fish.NVATime                               --         --         --         --          0
+Gold Fish.WaitTime                              --         --         --         --          0
+Gold Fish.TranTime                              --         --         --         --          0
+Gold Fish.OtherTime                             --         --         --         --          0
+Gold Fish.TotalTime                             --         --         --         --          0
+Cash Out.Queue.WaitingTime                  13.176     (Insuf)    .00000     122.09         49    
+Dining Process.Queue.WaitingTime            .00000     (Insuf)    .00000     .00000        133    
+Food Service Time.Queue.WaitingTime         .00000     (Insuf)    .00000     .00000         75    
+Cash Register.Queue.WaitingTime             7.7955     (Insuf)    .00000     61.932         53    
+Special Order.Queue.WaitingTime             12.806     (Insuf)    .00000     109.90         43    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                19.138     (Insuf)    .00000     30.000     22.000    
+Gold Fish.WIP                               23.456     (Insuf)    .00000     25.000     25.000    
+Wade.NumberBusy                             .17987     (Insuf)    .00000     1.0000     .00000    
+Wade.NumberScheduled                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Wade.Utilization                            .17987     (Insuf)    .00000     1.0000     .00000    
+Tommie.NumberBusy                           .08667     (Insuf)    .00000     1.0000     1.0000    
+Tommie.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Tommie.Utilization                          .08667     (Insuf)    .00000     1.0000     1.0000    
+Table 10.NumberBusy                         .26151     (Insuf)    .00000     1.0000     .00000    
+Table 10.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 10.Utilization                        .26151     (Insuf)    .00000     1.0000     .00000    
+Table 11.NumberBusy                         .16795     (Insuf)    .00000     1.0000     .00000    
+Table 11.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 11.Utilization                        .16795     (Insuf)    .00000     1.0000     .00000    
+Table 12.NumberBusy                         .24811     (Insuf)    .00000     1.0000     .00000    
+Table 12.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 12.Utilization                        .24811     (Insuf)    .00000     1.0000     .00000    
+Table 13.NumberBusy                         .24551     (Insuf)    .00000     1.0000     1.0000    
+Table 13.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 13.Utilization                        .24551     (Insuf)    .00000     1.0000     1.0000    
+Table 14.NumberBusy                         .02042     (Insuf)    .00000     1.0000     .00000    
+Table 14.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 14.Utilization                        .02042     (Insuf)    .00000     1.0000     .00000    
+Table 15.NumberBusy                         .56687     (Insuf)    .00000     1.0000     1.0000    
+Table 15.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 15.Utilization                        .56687     (Insuf)    .00000     1.0000     1.0000    
+Table 16.NumberBusy                         .26548     (Insuf)    .00000     1.0000     .00000    
+Table 16.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 16.Utilization                        .26548     (Insuf)    .00000     1.0000     .00000    
+Table 17.NumberBusy                         .21700     (Insuf)    .00000     1.0000     1.0000    
+Table 17.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 17.Utilization                        .21700     (Insuf)    .00000     1.0000     1.0000    
+Table 18.NumberBusy                         .20327     (Insuf)    .00000     1.0000     1.0000    
+Table 18.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 18.Utilization                        .20327     (Insuf)    .00000     1.0000     1.0000    
+Table 1.NumberBusy                          .54051     (Insuf)    .00000     1.0000     .00000    
+Table 1.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 1.Utilization                         .54051     (Insuf)    .00000     1.0000     .00000    
+Table 19.NumberBusy                         .35980     (Insuf)    .00000     1.0000     1.0000    
+Table 19.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 19.Utilization                        .35980     (Insuf)    .00000     1.0000     1.0000    
+Table 2.NumberBusy                          .22574     (Insuf)    .00000     1.0000     1.0000    
+Table 2.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 2.Utilization                         .22574     (Insuf)    .00000     1.0000     1.0000    
+Table 3.NumberBusy                          .47485     (Insuf)    .00000     1.0000     1.0000    
+Table 3.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 3.Utilization                         .47485     (Insuf)    .00000     1.0000     1.0000    
+Table 4.NumberBusy                          .21750     (Insuf)    .00000     1.0000     .00000    
+Table 4.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 4.Utilization                         .21750     (Insuf)    .00000     1.0000     .00000    
+Table 5.NumberBusy                          .17354     (Insuf)    .00000     1.0000     .00000    
+Table 5.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 5.Utilization                         .17354     (Insuf)    .00000     1.0000     .00000    
+Table 6.NumberBusy                          .64050     (Insuf)    .00000     1.0000     1.0000    
+Table 6.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 6.Utilization                         .64050     (Insuf)    .00000     1.0000     1.0000    
+Table 7.NumberBusy                          .44708     (Insuf)    .00000     1.0000     1.0000    
+Table 7.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 7.Utilization                         .44708     (Insuf)    .00000     1.0000     1.0000    
+Table 8.NumberBusy                          .68996     (Insuf)    .00000     1.0000     .00000    
+Table 8.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 8.Utilization                         .68996     (Insuf)    .00000     1.0000     .00000    
+Table 9.NumberBusy                          .45129     (Insuf)    .00000     1.0000     .00000    
+Table 9.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 9.Utilization                         .45129     (Insuf)    .00000     1.0000     .00000    
+Barista.NumberBusy                          .26159     (Insuf)    .00000     1.0000     .00000    
+Barista.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Barista.Utilization                         .26159     (Insuf)    .00000     1.0000     .00000    
+Table 20.NumberBusy                         .14305     (Insuf)    .00000     1.0000     1.0000    
+Table 20.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 20.Utilization                        .14305     (Insuf)    .00000     1.0000     1.0000    
+Table 21.NumberBusy                         .47949     (Insuf)    .00000     1.0000     .00000    
+Table 21.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 21.Utilization                        .47949     (Insuf)    .00000     1.0000     .00000    
+Table 22.NumberBusy                         .51653     (Insuf)    .00000     1.0000     .00000    
+Table 22.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 22.Utilization                        .51653     (Insuf)    .00000     1.0000     .00000    
+Table 23.NumberBusy                         .45326     (Insuf)    .00000     1.0000     1.0000    
+Table 23.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 23.Utilization                        .45326     (Insuf)    .00000     1.0000     1.0000    
+Table 24.NumberBusy                         .13161     (Insuf)    .00000     1.0000     .00000    
+Table 24.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 24.Utilization                        .13161     (Insuf)    .00000     1.0000     .00000    
+Table 25.NumberBusy                         .24468     (Insuf)    .00000     1.0000     .00000    
+Table 25.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 25.Utilization                        .24468     (Insuf)    .00000     1.0000     .00000    
+Table 26.NumberBusy                         .05829     (Insuf)    .00000     1.0000     .00000    
+Table 26.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 26.Utilization                        .05829     (Insuf)    .00000     1.0000     .00000    
+Table 27.NumberBusy                         .40163     (Insuf)    .00000     1.0000     .00000    
+Table 27.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 27.Utilization                        .40163     (Insuf)    .00000     1.0000     .00000    
+Table 28.NumberBusy                         .34264     (Insuf)    .00000     1.0000     .00000    
+Table 28.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 28.Utilization                        .34264     (Insuf)    .00000     1.0000     .00000    
+Table 29.NumberBusy                         .09413     (Insuf)    .00000     1.0000     .00000    
+Table 29.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 29.Utilization                        .09413     (Insuf)    .00000     1.0000     .00000    
+Table 30.NumberBusy                         .12244     (Insuf)    .00000     1.0000     .00000    
+Table 30.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 30.Utilization                        .12244     (Insuf)    .00000     1.0000     .00000    
+Table 31.NumberBusy                         .31943     (Insuf)    .00000     1.0000     1.0000    
+Table 31.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 31.Utilization                        .31943     (Insuf)    .00000     1.0000     1.0000    
+Table 32.NumberBusy                         .39406     (Insuf)    .00000     1.0000     1.0000    
+Table 32.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 32.Utilization                        .39406     (Insuf)    .00000     1.0000     1.0000    
+Table 33.NumberBusy                         .05537     (Insuf)    .00000     1.0000     .00000    
+Table 33.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 33.Utilization                        .05537     (Insuf)    .00000     1.0000     .00000    
+Table 34.NumberBusy                         .04606     (Insuf)    .00000     1.0000     .00000    
+Table 34.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 34.Utilization                        .04606     (Insuf)    .00000     1.0000     .00000    
+Table 35.NumberBusy                         .30077     (Insuf)    .00000     1.0000     .00000    
+Table 35.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 35.Utilization                        .30077     (Insuf)    .00000     1.0000     .00000    
+Table 36.NumberBusy                         .23478     (Insuf)    .00000     1.0000     1.0000    
+Table 36.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 36.Utilization                        .23478     (Insuf)    .00000     1.0000     1.0000    
+Table 37.NumberBusy                         .46258     (Insuf)    .00000     1.0000     1.0000    
+Table 37.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 37.Utilization                        .46258     (Insuf)    .00000     1.0000     1.0000    
+Table 38.NumberBusy                         .47491     (Insuf)    .00000     1.0000     1.0000    
+Table 38.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 38.Utilization                        .47491     (Insuf)    .00000     1.0000     1.0000    
+Table 39.NumberBusy                         .08905     (Insuf)    .00000     1.0000     .00000    
+Table 39.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 39.Utilization                        .08905     (Insuf)    .00000     1.0000     .00000    
+Table 40.NumberBusy                         .10967     (Insuf)    .00000     1.0000     1.0000    
+Table 40.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 40.Utilization                        .10967     (Insuf)    .00000     1.0000     1.0000    
+Table 41.NumberBusy                         .46626     (Insuf)    .00000     1.0000     .00000    
+Table 41.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 41.Utilization                        .46626     (Insuf)    .00000     1.0000     .00000    
+Table 42.NumberBusy                         .51597     (Insuf)    .00000     1.0000     .00000    
+Table 42.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 42.Utilization                        .51597     (Insuf)    .00000     1.0000     .00000    
+Table 43.NumberBusy                         .38169     (Insuf)    .00000     1.0000     .00000    
+Table 43.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 43.Utilization                        .38169     (Insuf)    .00000     1.0000     .00000    
+Table 44.NumberBusy                         .19305     (Insuf)    .00000     1.0000     .00000    
+Table 44.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 44.Utilization                        .19305     (Insuf)    .00000     1.0000     .00000    
+Table 45.NumberBusy                         .45693     (Insuf)    .00000     1.0000     1.0000    
+Table 45.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 45.Utilization                        .45693     (Insuf)    .00000     1.0000     1.0000    
+Table 46.NumberBusy                         .23531     (Insuf)    .00000     1.0000     .00000    
+Table 46.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 46.Utilization                        .23531     (Insuf)    .00000     1.0000     .00000    
+Table 47.NumberBusy                         .19297     (Insuf)    .00000     1.0000     1.0000    
+Table 47.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 47.Utilization                        .19297     (Insuf)    .00000     1.0000     1.0000    
+Table 48.NumberBusy                         .15270     (Insuf)    .00000     1.0000     1.0000    
+Table 48.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 48.Utilization                        .15270     (Insuf)    .00000     1.0000     1.0000    
+Table 49.NumberBusy                         .16415     (Insuf)    .00000     1.0000     .00000    
+Table 49.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 49.Utilization                        .16415     (Insuf)    .00000     1.0000     .00000    
+Table 50.NumberBusy                         .46838     (Insuf)    .00000     1.0000     .00000    
+Table 50.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 50.Utilization                        .46838     (Insuf)    .00000     1.0000     .00000    
+Jacob.NumberBusy                            .05579     (Insuf)    .00000     1.0000     .00000    
+Jacob.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Jacob.Utilization                           .05579     (Insuf)    .00000     1.0000     .00000    
+Bar Cash.NumberBusy                         .20189     (Insuf)    .00000     1.0000     .00000    
+Bar Cash.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Bar Cash.Utilization                        .20189     (Insuf)    .00000     1.0000     .00000    
+Mikki.NumberBusy                            .00000     (Insuf)    .00000     .00000     .00000    
+Mikki.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Mikki.Utilization                           .00000     (Insuf)    .00000     .00000     .00000    
+Lynice.NumberBusy                           .00000     (Insuf)    .00000     .00000     .00000    
+Lynice.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Lynice.Utilization                          .00000     (Insuf)    .00000     .00000     .00000    
+Cash Out.Queue.NumberInQueue                .05978     (Insuf)    .00000     3.0000     .00000    
+Dining Process.Queue.NumberInQueue          .00000     (Insuf)    .00000     .00000     .00000    
+Food Service Time.Queue.NumberInQueue       .00000     (Insuf)    .00000     .00000     .00000    
+Cash Register.Queue.NumberInQueue           .03826     (Insuf)    .00000     2.0000     .00000    
+Special Order.Queue.NumberInQueue           .05099     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           163.00    
+Customer.NumberOut                          141.00    
+Gold Fish.NumberIn                          25.000    
+Gold Fish.NumberOut                         .00000    
+Wade.NumberSeized                           53.000    
+Wade.ScheduledUtilization                   .17987    
+Tommie.NumberSeized                         41.000    
+Tommie.ScheduledUtilization                 .08667    
+Table 10.NumberSeized                       4.0000    
+Table 10.ScheduledUtilization               .26151    
+Table 11.NumberSeized                       2.0000    
+Table 11.ScheduledUtilization               .16795    
+Table 12.NumberSeized                       1.0000    
+Table 12.ScheduledUtilization               .24811    
+Table 13.NumberSeized                       3.0000    
+Table 13.ScheduledUtilization               .24551    
+Table 14.NumberSeized                       1.0000    
+Table 14.ScheduledUtilization               .02042    
+Table 15.NumberSeized                       3.0000    
+Table 15.ScheduledUtilization               .56687    
+Table 16.NumberSeized                       2.0000    
+Table 16.ScheduledUtilization               .26548    
+Table 17.NumberSeized                       2.0000    
+Table 17.ScheduledUtilization               .21700    
+Table 18.NumberSeized                       2.0000    
+Table 18.ScheduledUtilization               .20327    
+Table 1.NumberSeized                        3.0000    
+Table 1.ScheduledUtilization                .54051    
+Table 19.NumberSeized                       3.0000    
+Table 19.ScheduledUtilization               .35980    
+Table 2.NumberSeized                        4.0000    
+Table 2.ScheduledUtilization                .22574    
+Table 3.NumberSeized                        2.0000    
+Table 3.ScheduledUtilization                .47485    
+Table 4.NumberSeized                        2.0000    
+Table 4.ScheduledUtilization                .21750    
+Table 5.NumberSeized                        2.0000    
+Table 5.ScheduledUtilization                .17354    
+Table 6.NumberSeized                        4.0000    
+Table 6.ScheduledUtilization                .64050    
+Table 7.NumberSeized                        5.0000    
+Table 7.ScheduledUtilization                .44708    
+Table 8.NumberSeized                        3.0000    
+Table 8.ScheduledUtilization                .68996    
+Table 9.NumberSeized                        5.0000    
+Table 9.ScheduledUtilization                .45129    
+Barista.NumberSeized                        43.000    
+Barista.ScheduledUtilization                .26159    
+Table 20.NumberSeized                       2.0000    
+Table 20.ScheduledUtilization               .14305    
+Table 21.NumberSeized                       4.0000    
+Table 21.ScheduledUtilization               .47949    
+Table 22.NumberSeized                       3.0000    
+Table 22.ScheduledUtilization               .51653    
+Table 23.NumberSeized                       4.0000    
+Table 23.ScheduledUtilization               .45326    
+Table 24.NumberSeized                       2.0000    
+Table 24.ScheduledUtilization               .13161    
+Table 25.NumberSeized                       1.0000    
+Table 25.ScheduledUtilization               .24468    
+Table 26.NumberSeized                       2.0000    
+Table 26.ScheduledUtilization               .05829    
+Table 27.NumberSeized                       4.0000    
+Table 27.ScheduledUtilization               .40163    
+Table 28.NumberSeized                       3.0000    
+Table 28.ScheduledUtilization               .34264    
+Table 29.NumberSeized                       1.0000    
+Table 29.ScheduledUtilization               .09413    
+Table 30.NumberSeized                       2.0000    
+Table 30.ScheduledUtilization               .12244    
+Table 31.NumberSeized                       5.0000    
+Table 31.ScheduledUtilization               .31943    
+Table 32.NumberSeized                       5.0000    
+Table 32.ScheduledUtilization               .39406    
+Table 33.NumberSeized                       1.0000    
+Table 33.ScheduledUtilization               .05537    
+Table 34.NumberSeized                       1.0000    
+Table 34.ScheduledUtilization               .04606    
+Table 35.NumberSeized                       2.0000    
+Table 35.ScheduledUtilization               .30077    
+Table 36.NumberSeized                       3.0000    
+Table 36.ScheduledUtilization               .23478    
+Table 37.NumberSeized                       5.0000    
+Table 37.ScheduledUtilization               .46258    
+Table 38.NumberSeized                       2.0000    
+Table 38.ScheduledUtilization               .47491    
+Table 39.NumberSeized                       1.0000    
+Table 39.ScheduledUtilization               .08905    
+Table 40.NumberSeized                       2.0000    
+Table 40.ScheduledUtilization               .10967    
+Table 41.NumberSeized                       1.0000    
+Table 41.ScheduledUtilization               .46626    
+Table 42.NumberSeized                       3.0000    
+Table 42.ScheduledUtilization               .51597    
+Table 43.NumberSeized                       4.0000    
+Table 43.ScheduledUtilization               .38169    
+Table 44.NumberSeized                       4.0000    
+Table 44.ScheduledUtilization               .19305    
+Table 45.NumberSeized                       3.0000    
+Table 45.ScheduledUtilization               .45693    
+Table 46.NumberSeized                       1.0000    
+Table 46.ScheduledUtilization               .23531    
+Table 47.NumberSeized                       3.0000    
+Table 47.ScheduledUtilization               .19297    
+Table 48.NumberSeized                       2.0000    
+Table 48.ScheduledUtilization               .15270    
+Table 49.NumberSeized                       2.0000    
+Table 49.ScheduledUtilization               .16415    
+Table 50.NumberSeized                       2.0000    
+Table 50.ScheduledUtilization               .46838    
+Jacob.NumberSeized                          34.000    
+Jacob.ScheduledUtilization                  .05579    
+Bar Cash.NumberSeized                       49.000    
+Bar Cash.ScheduledUtilization               .20189    
+Mikki.NumberSeized                          .00000    
+Mikki.ScheduledUtilization                  .00000    
+Lynice.NumberSeized                         .00000    
+Lynice.ScheduledUtilization                 .00000    
+System.NumberOut                            141.00    
+
+Beginning replication 4 of 5
+
+                                      ARENA Simulation Results
+                                      Jacob - License: STUDENT
+
+                                  Summary for Replication 4 of 5
+
+Project: Unnamed Project                                             Run execution date :12/10/2015
+Analyst: Jacob                                                       Model revision date:12/10/2015
+
+Replication ended at time      : 10800.0 Seconds 
+Base Time Units: Seconds
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             1000.7     (Insuf)    .00000     4773.2        185    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        185    
+Customer.WaitTime                           10.326     (Insuf)    .00000     174.35        185    
+Customer.TranTime                           210.25     (Insuf)    90.000     330.00        185    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        185    
+Customer.TotalTime                          1221.3     (Insuf)    107.56     4992.8        185    
+Gold Fish.VATime                                --         --         --         --          0
+Gold Fish.NVATime                               --         --         --         --          0
+Gold Fish.WaitTime                              --         --         --         --          0
+Gold Fish.TranTime                              --         --         --         --          0
+Gold Fish.OtherTime                             --         --         --         --          0
+Gold Fish.TotalTime                             --         --         --         --          0
+Cash Out.Queue.WaitingTime                  11.296     (Insuf)    .00000     72.824         70    
+Dining Process.Queue.WaitingTime            .00000     (Insuf)    .00000     .00000        169    
+Food Service Time.Queue.WaitingTime         .33640     (Insuf)    .00000     10.553         94    
+Cash Register.Queue.WaitingTime             4.9558     (Insuf)    .00000     42.369         68    
+Special Order.Queue.WaitingTime             18.130     (Insuf)    .00000     174.35         55    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                23.740     (Corr)     .00000     42.000     23.000    
+Gold Fish.WIP                               22.865     (Insuf)    .00000     25.000     25.000    
+Wade.NumberBusy                             .23345     (Insuf)    .00000     1.0000     .00000    
+Wade.NumberScheduled                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Wade.Utilization                            .23345     (Insuf)    .00000     1.0000     .00000    
+Tommie.NumberBusy                           .12356     (Insuf)    .00000     1.0000     .00000    
+Tommie.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Tommie.Utilization                          .12356     (Insuf)    .00000     1.0000     .00000    
+Table 10.NumberBusy                         .49517     (Insuf)    .00000     1.0000     1.0000    
+Table 10.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 10.Utilization                        .49517     (Insuf)    .00000     1.0000     1.0000    
+Table 11.NumberBusy                         .40626     (Insuf)    .00000     1.0000     1.0000    
+Table 11.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 11.Utilization                        .40626     (Insuf)    .00000     1.0000     1.0000    
+Table 12.NumberBusy                         .61362     (Insuf)    .00000     1.0000     1.0000    
+Table 12.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 12.Utilization                        .61362     (Insuf)    .00000     1.0000     1.0000    
+Table 13.NumberBusy                         .53514     (Insuf)    .00000     1.0000     1.0000    
+Table 13.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 13.Utilization                        .53514     (Insuf)    .00000     1.0000     1.0000    
+Table 14.NumberBusy                         .10253     (Insuf)    .00000     1.0000     .00000    
+Table 14.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 14.Utilization                        .10253     (Insuf)    .00000     1.0000     .00000    
+Table 15.NumberBusy                         .64793     (Insuf)    .00000     1.0000     .00000    
+Table 15.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 15.Utilization                        .64793     (Insuf)    .00000     1.0000     .00000    
+Table 16.NumberBusy                         .49811     (Insuf)    .00000     1.0000     1.0000    
+Table 16.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 16.Utilization                        .49811     (Insuf)    .00000     1.0000     1.0000    
+Table 17.NumberBusy                         .35575     (Insuf)    .00000     1.0000     .00000    
+Table 17.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 17.Utilization                        .35575     (Insuf)    .00000     1.0000     .00000    
+Table 18.NumberBusy                         .25412     (Insuf)    .00000     1.0000     .00000    
+Table 18.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 18.Utilization                        .25412     (Insuf)    .00000     1.0000     .00000    
+Table 1.NumberBusy                          .58560     (Insuf)    .00000     1.0000     .00000    
+Table 1.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 1.Utilization                         .58560     (Insuf)    .00000     1.0000     .00000    
+Table 19.NumberBusy                         .24901     (Insuf)    .00000     1.0000     .00000    
+Table 19.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 19.Utilization                        .24901     (Insuf)    .00000     1.0000     .00000    
+Table 2.NumberBusy                          .45695     (Insuf)    .00000     1.0000     .00000    
+Table 2.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 2.Utilization                         .45695     (Insuf)    .00000     1.0000     .00000    
+Table 3.NumberBusy                          .36671     (Insuf)    .00000     1.0000     1.0000    
+Table 3.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 3.Utilization                         .36671     (Insuf)    .00000     1.0000     1.0000    
+Table 4.NumberBusy                          .33763     (Insuf)    .00000     1.0000     .00000    
+Table 4.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 4.Utilization                         .33763     (Insuf)    .00000     1.0000     .00000    
+Table 5.NumberBusy                          .25454     (Insuf)    .00000     1.0000     .00000    
+Table 5.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 5.Utilization                         .25454     (Insuf)    .00000     1.0000     .00000    
+Table 6.NumberBusy                          .36316     (Insuf)    .00000     1.0000     1.0000    
+Table 6.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 6.Utilization                         .36316     (Insuf)    .00000     1.0000     1.0000    
+Table 7.NumberBusy                          .32391     (Insuf)    .00000     1.0000     .00000    
+Table 7.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 7.Utilization                         .32391     (Insuf)    .00000     1.0000     .00000    
+Table 8.NumberBusy                          .64999     (Insuf)    .00000     1.0000     1.0000    
+Table 8.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 8.Utilization                         .64999     (Insuf)    .00000     1.0000     1.0000    
+Table 9.NumberBusy                          .61236     (Insuf)    .00000     1.0000     1.0000    
+Table 9.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 9.Utilization                         .61236     (Insuf)    .00000     1.0000     1.0000    
+Barista.NumberBusy                          .30938     (Insuf)    .00000     1.0000     .00000    
+Barista.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Barista.Utilization                         .30938     (Insuf)    .00000     1.0000     .00000    
+Table 20.NumberBusy                         .56007     (Insuf)    .00000     1.0000     1.0000    
+Table 20.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 20.Utilization                        .56007     (Insuf)    .00000     1.0000     1.0000    
+Table 21.NumberBusy                         .36282     (Insuf)    .00000     1.0000     1.0000    
+Table 21.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 21.Utilization                        .36282     (Insuf)    .00000     1.0000     1.0000    
+Table 22.NumberBusy                         .37607     (Insuf)    .00000     1.0000     1.0000    
+Table 22.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 22.Utilization                        .37607     (Insuf)    .00000     1.0000     1.0000    
+Table 23.NumberBusy                         .21177     (Insuf)    .00000     1.0000     .00000    
+Table 23.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 23.Utilization                        .21177     (Insuf)    .00000     1.0000     .00000    
+Table 24.NumberBusy                         .50374     (Insuf)    .00000     1.0000     .00000    
+Table 24.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 24.Utilization                        .50374     (Insuf)    .00000     1.0000     .00000    
+Table 25.NumberBusy                         .34146     (Insuf)    .00000     1.0000     .00000    
+Table 25.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 25.Utilization                        .34146     (Insuf)    .00000     1.0000     .00000    
+Table 26.NumberBusy                         .22558     (Insuf)    .00000     1.0000     .00000    
+Table 26.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 26.Utilization                        .22558     (Insuf)    .00000     1.0000     .00000    
+Table 27.NumberBusy                         .12723     (Insuf)    .00000     1.0000     .00000    
+Table 27.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 27.Utilization                        .12723     (Insuf)    .00000     1.0000     .00000    
+Table 28.NumberBusy                         .34260     (Insuf)    .00000     1.0000     1.0000    
+Table 28.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 28.Utilization                        .34260     (Insuf)    .00000     1.0000     1.0000    
+Table 29.NumberBusy                         .36246     (Insuf)    .00000     1.0000     .00000    
+Table 29.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 29.Utilization                        .36246     (Insuf)    .00000     1.0000     .00000    
+Table 30.NumberBusy                         .33355     (Insuf)    .00000     1.0000     .00000    
+Table 30.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 30.Utilization                        .33355     (Insuf)    .00000     1.0000     .00000    
+Table 31.NumberBusy                         .67268     (Insuf)    .00000     1.0000     1.0000    
+Table 31.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 31.Utilization                        .67268     (Insuf)    .00000     1.0000     1.0000    
+Table 32.NumberBusy                         .60989     (Insuf)    .00000     1.0000     .00000    
+Table 32.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 32.Utilization                        .60989     (Insuf)    .00000     1.0000     .00000    
+Table 33.NumberBusy                         .13938     (Insuf)    .00000     1.0000     .00000    
+Table 33.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 33.Utilization                        .13938     (Insuf)    .00000     1.0000     .00000    
+Table 34.NumberBusy                         .45805     (Insuf)    .00000     1.0000     .00000    
+Table 34.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 34.Utilization                        .45805     (Insuf)    .00000     1.0000     .00000    
+Table 35.NumberBusy                         .51259     (Insuf)    .00000     1.0000     1.0000    
+Table 35.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 35.Utilization                        .51259     (Insuf)    .00000     1.0000     1.0000    
+Table 36.NumberBusy                         .18266     (Insuf)    .00000     1.0000     .00000    
+Table 36.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 36.Utilization                        .18266     (Insuf)    .00000     1.0000     .00000    
+Table 37.NumberBusy                         .28112     (Insuf)    .00000     1.0000     1.0000    
+Table 37.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 37.Utilization                        .28112     (Insuf)    .00000     1.0000     1.0000    
+Table 38.NumberBusy                         .28346     (Insuf)    .00000     1.0000     1.0000    
+Table 38.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 38.Utilization                        .28346     (Insuf)    .00000     1.0000     1.0000    
+Table 39.NumberBusy                         .22095     (Insuf)    .00000     1.0000     .00000    
+Table 39.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 39.Utilization                        .22095     (Insuf)    .00000     1.0000     .00000    
+Table 40.NumberBusy                         .28990     (Insuf)    .00000     1.0000     1.0000    
+Table 40.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 40.Utilization                        .28990     (Insuf)    .00000     1.0000     1.0000    
+Table 41.NumberBusy                         .01328     (Insuf)    .00000     1.0000     .00000    
+Table 41.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 41.Utilization                        .01328     (Insuf)    .00000     1.0000     .00000    
+Table 42.NumberBusy                         .10479     (Insuf)    .00000     1.0000     .00000    
+Table 42.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 42.Utilization                        .10479     (Insuf)    .00000     1.0000     .00000    
+Table 43.NumberBusy                         .60405     (Insuf)    .00000     1.0000     .00000    
+Table 43.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 43.Utilization                        .60405     (Insuf)    .00000     1.0000     .00000    
+Table 44.NumberBusy                         .38137     (Insuf)    .00000     1.0000     1.0000    
+Table 44.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 44.Utilization                        .38137     (Insuf)    .00000     1.0000     1.0000    
+Table 45.NumberBusy                         .21287     (Insuf)    .00000     1.0000     1.0000    
+Table 45.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 45.Utilization                        .21287     (Insuf)    .00000     1.0000     1.0000    
+Table 46.NumberBusy                         .34809     (Insuf)    .00000     1.0000     .00000    
+Table 46.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 46.Utilization                        .34809     (Insuf)    .00000     1.0000     .00000    
+Table 47.NumberBusy                         .40486     (Insuf)    .00000     1.0000     .00000    
+Table 47.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 47.Utilization                        .40486     (Insuf)    .00000     1.0000     .00000    
+Table 48.NumberBusy                         .33963     (Insuf)    .00000     1.0000     .00000    
+Table 48.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 48.Utilization                        .33963     (Insuf)    .00000     1.0000     .00000    
+Table 49.NumberBusy                         .42674     (Insuf)    .00000     1.0000     .00000    
+Table 49.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 49.Utilization                        .42674     (Insuf)    .00000     1.0000     .00000    
+Table 50.NumberBusy                         .31386     (Insuf)    .00000     1.0000     1.0000    
+Table 50.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 50.Utilization                        .31386     (Insuf)    .00000     1.0000     1.0000    
+Jacob.NumberBusy                            .11541     (Insuf)    .00000     1.0000     .00000    
+Jacob.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Jacob.Utilization                           .11541     (Insuf)    .00000     1.0000     .00000    
+Bar Cash.NumberBusy                         .27440     (Insuf)    .00000     1.0000     .00000    
+Bar Cash.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Bar Cash.Utilization                        .27440     (Insuf)    .00000     1.0000     .00000    
+Mikki.NumberBusy                            .00000     (Insuf)    .00000     .00000     .00000    
+Mikki.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Mikki.Utilization                           .00000     (Insuf)    .00000     .00000     .00000    
+Lynice.NumberBusy                           .00000     (Insuf)    .00000     .00000     .00000    
+Lynice.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Lynice.Utilization                          .00000     (Insuf)    .00000     .00000     .00000    
+Cash Out.Queue.NumberInQueue                .07322     (Insuf)    .00000     2.0000     .00000    
+Dining Process.Queue.NumberInQueue          .00000     (Insuf)    .00000     .00000     .00000    
+Food Service Time.Queue.NumberInQueue       .00293     (Insuf)    .00000     1.0000     .00000    
+Cash Register.Queue.NumberInQueue           .03120     (Insuf)    .00000     1.0000     .00000    
+Special Order.Queue.NumberInQueue           .09233     (Insuf)    .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           208.00    
+Customer.NumberOut                          185.00    
+Gold Fish.NumberIn                          25.000    
+Gold Fish.NumberOut                         .00000    
+Wade.NumberSeized                           68.000    
+Wade.ScheduledUtilization                   .23345    
+Tommie.NumberSeized                         47.000    
+Tommie.ScheduledUtilization                 .12356    
+Table 10.NumberSeized                       4.0000    
+Table 10.ScheduledUtilization               .49517    
+Table 11.NumberSeized                       4.0000    
+Table 11.ScheduledUtilization               .40626    
+Table 12.NumberSeized                       5.0000    
+Table 12.ScheduledUtilization               .61362    
+Table 13.NumberSeized                       5.0000    
+Table 13.ScheduledUtilization               .53514    
+Table 14.NumberSeized                       4.0000    
+Table 14.ScheduledUtilization               .10253    
+Table 15.NumberSeized                       3.0000    
+Table 15.ScheduledUtilization               .64793    
+Table 16.NumberSeized                       6.0000    
+Table 16.ScheduledUtilization               .49811    
+Table 17.NumberSeized                       3.0000    
+Table 17.ScheduledUtilization               .35575    
+Table 18.NumberSeized                       4.0000    
+Table 18.ScheduledUtilization               .25412    
+Table 1.NumberSeized                        2.0000    
+Table 1.ScheduledUtilization                .58560    
+Table 19.NumberSeized                       6.0000    
+Table 19.ScheduledUtilization               .24901    
+Table 2.NumberSeized                        4.0000    
+Table 2.ScheduledUtilization                .45695    
+Table 3.NumberSeized                        5.0000    
+Table 3.ScheduledUtilization                .36671    
+Table 4.NumberSeized                        4.0000    
+Table 4.ScheduledUtilization                .33763    
+Table 5.NumberSeized                        3.0000    
+Table 5.ScheduledUtilization                .25454    
+Table 6.NumberSeized                        3.0000    
+Table 6.ScheduledUtilization                .36316    
+Table 7.NumberSeized                        3.0000    
+Table 7.ScheduledUtilization                .32391    
+Table 8.NumberSeized                        7.0000    
+Table 8.ScheduledUtilization                .64999    
+Table 9.NumberSeized                        2.0000    
+Table 9.ScheduledUtilization                .61236    
+Barista.NumberSeized                        55.000    
+Barista.ScheduledUtilization                .30938    
+Table 20.NumberSeized                       4.0000    
+Table 20.ScheduledUtilization               .56007    
+Table 21.NumberSeized                       3.0000    
+Table 21.ScheduledUtilization               .36282    
+Table 22.NumberSeized                       3.0000    
+Table 22.ScheduledUtilization               .37607    
+Table 23.NumberSeized                       2.0000    
+Table 23.ScheduledUtilization               .21177    
+Table 24.NumberSeized                       2.0000    
+Table 24.ScheduledUtilization               .50374    
+Table 25.NumberSeized                       6.0000    
+Table 25.ScheduledUtilization               .34146    
+Table 26.NumberSeized                       3.0000    
+Table 26.ScheduledUtilization               .22558    
+Table 27.NumberSeized                       1.0000    
+Table 27.ScheduledUtilization               .12723    
+Table 28.NumberSeized                       3.0000    
+Table 28.ScheduledUtilization               .34260    
+Table 29.NumberSeized                       3.0000    
+Table 29.ScheduledUtilization               .36246    
+Table 30.NumberSeized                       4.0000    
+Table 30.ScheduledUtilization               .33355    
+Table 31.NumberSeized                       3.0000    
+Table 31.ScheduledUtilization               .67268    
+Table 32.NumberSeized                       5.0000    
+Table 32.ScheduledUtilization               .60989    
+Table 33.NumberSeized                       4.0000    
+Table 33.ScheduledUtilization               .13938    
+Table 34.NumberSeized                       3.0000    
+Table 34.ScheduledUtilization               .45805    
+Table 35.NumberSeized                       4.0000    
+Table 35.ScheduledUtilization               .51259    
+Table 36.NumberSeized                       4.0000    
+Table 36.ScheduledUtilization               .18266    
+Table 37.NumberSeized                       4.0000    
+Table 37.ScheduledUtilization               .28112    
+Table 38.NumberSeized                       2.0000    
+Table 38.ScheduledUtilization               .28346    
+Table 39.NumberSeized                       2.0000    
+Table 39.ScheduledUtilization               .22095    
+Table 40.NumberSeized                       3.0000    
+Table 40.ScheduledUtilization               .28990    
+Table 41.NumberSeized                       1.0000    
+Table 41.ScheduledUtilization               .01328    
+Table 42.NumberSeized                       2.0000    
+Table 42.ScheduledUtilization               .10479    
+Table 43.NumberSeized                       2.0000    
+Table 43.ScheduledUtilization               .60405    
+Table 44.NumberSeized                       4.0000    
+Table 44.ScheduledUtilization               .38137    
+Table 45.NumberSeized                       2.0000    
+Table 45.ScheduledUtilization               .21287    
+Table 46.NumberSeized                       2.0000    
+Table 46.ScheduledUtilization               .34809    
+Table 47.NumberSeized                       2.0000    
+Table 47.ScheduledUtilization               .40486    
+Table 48.NumberSeized                       3.0000    
+Table 48.ScheduledUtilization               .33963    
+Table 49.NumberSeized                       3.0000    
+Table 49.ScheduledUtilization               .42674    
+Table 50.NumberSeized                       3.0000    
+Table 50.ScheduledUtilization               .31386    
+Jacob.NumberSeized                          47.000    
+Jacob.ScheduledUtilization                  .11541    
+Bar Cash.NumberSeized                       70.000    
+Bar Cash.ScheduledUtilization               .27440    
+Mikki.NumberSeized                          .00000    
+Mikki.ScheduledUtilization                  .00000    
+Lynice.NumberSeized                         .00000    
+Lynice.ScheduledUtilization                 .00000    
+System.NumberOut                            185.00    
+
+Beginning replication 5 of 5
+
+                                      ARENA Simulation Results
+                                      Jacob - License: STUDENT
+
+                                  Summary for Replication 5 of 5
+
+Project: Unnamed Project                                             Run execution date :12/10/2015
+Analyst: Jacob                                                       Model revision date:12/10/2015
+
+Replication ended at time      : 10800.0 Seconds 
+Base Time Units: Seconds
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             1089.2     (Insuf)    .00000     4744.7        166    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        166    
+Customer.WaitTime                           17.718     (Insuf)    .00000     189.17        166    
+Customer.TranTime                           209.96     (Insuf)    90.000     330.00        166    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        166    
+Customer.TotalTime                          1316.9     (Insuf)    125.80     4984.7        166    
+Gold Fish.VATime                                --         --         --         --          0
+Gold Fish.NVATime                               --         --         --         --          0
+Gold Fish.WaitTime                              --         --         --         --          0
+Gold Fish.TranTime                              --         --         --         --          0
+Gold Fish.OtherTime                             --         --         --         --          0
+Gold Fish.TotalTime                             --         --         --         --          0
+Cash Out.Queue.WaitingTime                  15.476     (Insuf)    .00000     147.78         51    
+Dining Process.Queue.WaitingTime            .00000     (Insuf)    .00000     .00000        171    
+Food Service Time.Queue.WaitingTime         .13815     (Insuf)    .00000     6.4917         91    
+Cash Register.Queue.WaitingTime             8.9245     (Insuf)    .00000     73.861         60    
+Special Order.Queue.WaitingTime             25.441     (Insuf)    .00000     189.17         73    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                25.952     (Corr)     .00000     40.000     35.000    
+Gold Fish.WIP                               23.113     (Insuf)    .00000     25.000     25.000    
+Wade.NumberBusy                             .22597     (Insuf)    .00000     1.0000     .00000    
+Wade.NumberScheduled                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Wade.Utilization                            .22597     (Insuf)    .00000     1.0000     .00000    
+Tommie.NumberBusy                           .12646     (Insuf)    .00000     1.0000     1.0000    
+Tommie.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Tommie.Utilization                          .12646     (Insuf)    .00000     1.0000     1.0000    
+Table 10.NumberBusy                         .35267     (Insuf)    .00000     1.0000     .00000    
+Table 10.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 10.Utilization                        .35267     (Insuf)    .00000     1.0000     .00000    
+Table 11.NumberBusy                         .56407     (Insuf)    .00000     1.0000     1.0000    
+Table 11.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 11.Utilization                        .56407     (Insuf)    .00000     1.0000     1.0000    
+Table 12.NumberBusy                         .51206     (Insuf)    .00000     1.0000     1.0000    
+Table 12.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 12.Utilization                        .51206     (Insuf)    .00000     1.0000     1.0000    
+Table 13.NumberBusy                         .26245     (Insuf)    .00000     1.0000     1.0000    
+Table 13.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 13.Utilization                        .26245     (Insuf)    .00000     1.0000     1.0000    
+Table 14.NumberBusy                         .25780     (Insuf)    .00000     1.0000     .00000    
+Table 14.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 14.Utilization                        .25780     (Insuf)    .00000     1.0000     .00000    
+Table 15.NumberBusy                         .45267     (Insuf)    .00000     1.0000     1.0000    
+Table 15.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 15.Utilization                        .45267     (Insuf)    .00000     1.0000     1.0000    
+Table 16.NumberBusy                         .17585     (Insuf)    .00000     1.0000     .00000    
+Table 16.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 16.Utilization                        .17585     (Insuf)    .00000     1.0000     .00000    
+Table 17.NumberBusy                         .01594     (Insuf)    .00000     1.0000     1.0000    
+Table 17.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 17.Utilization                        .01594     (Insuf)    .00000     1.0000     1.0000    
+Table 18.NumberBusy                         .42785     (Insuf)    .00000     1.0000     1.0000    
+Table 18.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 18.Utilization                        .42785     (Insuf)    .00000     1.0000     1.0000    
+Table 1.NumberBusy                          .52126     (Insuf)    .00000     1.0000     .00000    
+Table 1.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 1.Utilization                         .52126     (Insuf)    .00000     1.0000     .00000    
+Table 19.NumberBusy                         .40339     (Insuf)    .00000     1.0000     1.0000    
+Table 19.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 19.Utilization                        .40339     (Insuf)    .00000     1.0000     1.0000    
+Table 2.NumberBusy                          .64424     (Insuf)    .00000     1.0000     1.0000    
+Table 2.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 2.Utilization                         .64424     (Insuf)    .00000     1.0000     1.0000    
+Table 3.NumberBusy                          .55988     (Insuf)    .00000     1.0000     .00000    
+Table 3.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 3.Utilization                         .55988     (Insuf)    .00000     1.0000     .00000    
+Table 4.NumberBusy                          .55641     (Insuf)    .00000     1.0000     .00000    
+Table 4.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 4.Utilization                         .55641     (Insuf)    .00000     1.0000     .00000    
+Table 5.NumberBusy                          .54937     (Insuf)    .00000     1.0000     .00000    
+Table 5.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 5.Utilization                         .54937     (Insuf)    .00000     1.0000     .00000    
+Table 6.NumberBusy                          .53081     (Insuf)    .00000     1.0000     .00000    
+Table 6.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 6.Utilization                         .53081     (Insuf)    .00000     1.0000     .00000    
+Table 7.NumberBusy                          .46095     (Insuf)    .00000     1.0000     .00000    
+Table 7.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 7.Utilization                         .46095     (Insuf)    .00000     1.0000     .00000    
+Table 8.NumberBusy                          .35906     (Insuf)    .00000     1.0000     1.0000    
+Table 8.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 8.Utilization                         .35906     (Insuf)    .00000     1.0000     1.0000    
+Table 9.NumberBusy                          .48478     (Insuf)    .00000     1.0000     1.0000    
+Table 9.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 9.Utilization                         .48478     (Insuf)    .00000     1.0000     1.0000    
+Barista.NumberBusy                          .42456     (Insuf)    .00000     1.0000     1.0000    
+Barista.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Barista.Utilization                         .42456     (Insuf)    .00000     1.0000     1.0000    
+Table 20.NumberBusy                         .57533     (Insuf)    .00000     1.0000     1.0000    
+Table 20.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 20.Utilization                        .57533     (Insuf)    .00000     1.0000     1.0000    
+Table 21.NumberBusy                         .66823     (Insuf)    .00000     1.0000     1.0000    
+Table 21.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 21.Utilization                        .66823     (Insuf)    .00000     1.0000     1.0000    
+Table 22.NumberBusy                         .36977     (Insuf)    .00000     1.0000     .00000    
+Table 22.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 22.Utilization                        .36977     (Insuf)    .00000     1.0000     .00000    
+Table 23.NumberBusy                         .42521     (Insuf)    .00000     1.0000     1.0000    
+Table 23.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 23.Utilization                        .42521     (Insuf)    .00000     1.0000     1.0000    
+Table 24.NumberBusy                         .40660     (Insuf)    .00000     1.0000     .00000    
+Table 24.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 24.Utilization                        .40660     (Insuf)    .00000     1.0000     .00000    
+Table 25.NumberBusy                         .27229     (Insuf)    .00000     1.0000     .00000    
+Table 25.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 25.Utilization                        .27229     (Insuf)    .00000     1.0000     .00000    
+Table 26.NumberBusy                         .43157     (Insuf)    .00000     1.0000     1.0000    
+Table 26.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 26.Utilization                        .43157     (Insuf)    .00000     1.0000     1.0000    
+Table 27.NumberBusy                         .14744     (Insuf)    .00000     1.0000     1.0000    
+Table 27.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 27.Utilization                        .14744     (Insuf)    .00000     1.0000     1.0000    
+Table 28.NumberBusy                         .26605     (Insuf)    .00000     1.0000     .00000    
+Table 28.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 28.Utilization                        .26605     (Insuf)    .00000     1.0000     .00000    
+Table 29.NumberBusy                         .33254     (Insuf)    .00000     1.0000     1.0000    
+Table 29.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 29.Utilization                        .33254     (Insuf)    .00000     1.0000     1.0000    
+Table 30.NumberBusy                         .10881     (Insuf)    .00000     1.0000     .00000    
+Table 30.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 30.Utilization                        .10881     (Insuf)    .00000     1.0000     .00000    
+Table 31.NumberBusy                         .60457     (Insuf)    .00000     1.0000     1.0000    
+Table 31.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 31.Utilization                        .60457     (Insuf)    .00000     1.0000     1.0000    
+Table 32.NumberBusy                         .39506     (Insuf)    .00000     1.0000     .00000    
+Table 32.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 32.Utilization                        .39506     (Insuf)    .00000     1.0000     .00000    
+Table 33.NumberBusy                         .18587     (Insuf)    .00000     1.0000     .00000    
+Table 33.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 33.Utilization                        .18587     (Insuf)    .00000     1.0000     .00000    
+Table 34.NumberBusy                         .11957     (Insuf)    .00000     1.0000     .00000    
+Table 34.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 34.Utilization                        .11957     (Insuf)    .00000     1.0000     .00000    
+Table 35.NumberBusy                         .57702     (Insuf)    .00000     1.0000     1.0000    
+Table 35.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 35.Utilization                        .57702     (Insuf)    .00000     1.0000     1.0000    
+Table 36.NumberBusy                         .56368     (Insuf)    .00000     1.0000     .00000    
+Table 36.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 36.Utilization                        .56368     (Insuf)    .00000     1.0000     .00000    
+Table 37.NumberBusy                         .39568     (Insuf)    .00000     1.0000     1.0000    
+Table 37.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 37.Utilization                        .39568     (Insuf)    .00000     1.0000     1.0000    
+Table 38.NumberBusy                         .64424     (Insuf)    .00000     1.0000     1.0000    
+Table 38.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 38.Utilization                        .64424     (Insuf)    .00000     1.0000     1.0000    
+Table 39.NumberBusy                         .36967     (Insuf)    .00000     1.0000     .00000    
+Table 39.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 39.Utilization                        .36967     (Insuf)    .00000     1.0000     .00000    
+Table 40.NumberBusy                         .74940     (Insuf)    .00000     1.0000     .00000    
+Table 40.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 40.Utilization                        .74940     (Insuf)    .00000     1.0000     .00000    
+Table 41.NumberBusy                         .74902     (Insuf)    .00000     1.0000     .00000    
+Table 41.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 41.Utilization                        .74902     (Insuf)    .00000     1.0000     .00000    
+Table 42.NumberBusy                         .47725     (Insuf)    .00000     1.0000     .00000    
+Table 42.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 42.Utilization                        .47725     (Insuf)    .00000     1.0000     .00000    
+Table 43.NumberBusy                         .29493     (Insuf)    .00000     1.0000     .00000    
+Table 43.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 43.Utilization                        .29493     (Insuf)    .00000     1.0000     .00000    
+Table 44.NumberBusy                         .42460     (Insuf)    .00000     1.0000     .00000    
+Table 44.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 44.Utilization                        .42460     (Insuf)    .00000     1.0000     .00000    
+Table 45.NumberBusy                         .32805     (Insuf)    .00000     1.0000     .00000    
+Table 45.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 45.Utilization                        .32805     (Insuf)    .00000     1.0000     .00000    
+Table 46.NumberBusy                         .36273     (Insuf)    .00000     1.0000     1.0000    
+Table 46.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 46.Utilization                        .36273     (Insuf)    .00000     1.0000     1.0000    
+Table 47.NumberBusy                         .32513     (Insuf)    .00000     1.0000     1.0000    
+Table 47.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 47.Utilization                        .32513     (Insuf)    .00000     1.0000     1.0000    
+Table 48.NumberBusy                         .41184     (Insuf)    .00000     1.0000     1.0000    
+Table 48.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 48.Utilization                        .41184     (Insuf)    .00000     1.0000     1.0000    
+Table 49.NumberBusy                         .56703     (Insuf)    .00000     1.0000     .00000    
+Table 49.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 49.Utilization                        .56703     (Insuf)    .00000     1.0000     .00000    
+Table 50.NumberBusy                         .38739     (Insuf)    .00000     1.0000     1.0000    
+Table 50.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Table 50.Utilization                        .38739     (Insuf)    .00000     1.0000     1.0000    
+Jacob.NumberBusy                            .09536     (Insuf)    .00000     1.0000     .00000    
+Jacob.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Jacob.Utilization                           .09536     (Insuf)    .00000     1.0000     .00000    
+Bar Cash.NumberBusy                         .21514     (Insuf)    .00000     1.0000     .00000    
+Bar Cash.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Bar Cash.Utilization                        .21514     (Insuf)    .00000     1.0000     .00000    
+Mikki.NumberBusy                            .00000     (Insuf)    .00000     .00000     .00000    
+Mikki.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Mikki.Utilization                           .00000     (Insuf)    .00000     .00000     .00000    
+Lynice.NumberBusy                           .00000     (Insuf)    .00000     .00000     .00000    
+Lynice.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Lynice.Utilization                          .00000     (Insuf)    .00000     .00000     .00000    
+Cash Out.Queue.NumberInQueue                .07308     (Insuf)    .00000     3.0000     .00000    
+Dining Process.Queue.NumberInQueue          .00000     (Insuf)    .00000     .00000     .00000    
+Food Service Time.Queue.NumberInQueue       .00116     (Insuf)    .00000     1.0000     .00000    
+Cash Register.Queue.NumberInQueue           .04958     (Insuf)    .00000     2.0000     .00000    
+Special Order.Queue.NumberInQueue           .17196     (Insuf)    .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           201.00    
+Customer.NumberOut                          166.00    
+Gold Fish.NumberIn                          25.000    
+Gold Fish.NumberOut                         .00000    
+Wade.NumberSeized                           60.000    
+Wade.ScheduledUtilization                   .22597    
+Tommie.NumberSeized                         49.000    
+Tommie.ScheduledUtilization                 .12646    
+Table 10.NumberSeized                       4.0000    
+Table 10.ScheduledUtilization               .35267    
+Table 11.NumberSeized                       4.0000    
+Table 11.ScheduledUtilization               .56407    
+Table 12.NumberSeized                       3.0000    
+Table 12.ScheduledUtilization               .51206    
+Table 13.NumberSeized                       5.0000    
+Table 13.ScheduledUtilization               .26245    
+Table 14.NumberSeized                       3.0000    
+Table 14.ScheduledUtilization               .25780    
+Table 15.NumberSeized                       2.0000    
+Table 15.ScheduledUtilization               .45267    
+Table 16.NumberSeized                       4.0000    
+Table 16.ScheduledUtilization               .17585    
+Table 17.NumberSeized                       2.0000    
+Table 17.ScheduledUtilization               .01594    
+Table 18.NumberSeized                       2.0000    
+Table 18.ScheduledUtilization               .42785    
+Table 1.NumberSeized                        4.0000    
+Table 1.ScheduledUtilization                .52126    
+Table 19.NumberSeized                       3.0000    
+Table 19.ScheduledUtilization               .40339    
+Table 2.NumberSeized                        4.0000    
+Table 2.ScheduledUtilization                .64424    
+Table 3.NumberSeized                        5.0000    
+Table 3.ScheduledUtilization                .55988    
+Table 4.NumberSeized                        2.0000    
+Table 4.ScheduledUtilization                .55641    
+Table 5.NumberSeized                        3.0000    
+Table 5.ScheduledUtilization                .54937    
+Table 6.NumberSeized                        6.0000    
+Table 6.ScheduledUtilization                .53081    
+Table 7.NumberSeized                        4.0000    
+Table 7.ScheduledUtilization                .46095    
+Table 8.NumberSeized                        6.0000    
+Table 8.ScheduledUtilization                .35906    
+Table 9.NumberSeized                        4.0000    
+Table 9.ScheduledUtilization                .48478    
+Barista.NumberSeized                        73.000    
+Barista.ScheduledUtilization                .42456    
+Table 20.NumberSeized                       4.0000    
+Table 20.ScheduledUtilization               .57533    
+Table 21.NumberSeized                       6.0000    
+Table 21.ScheduledUtilization               .66823    
+Table 22.NumberSeized                       1.0000    
+Table 22.ScheduledUtilization               .36977    
+Table 23.NumberSeized                       5.0000    
+Table 23.ScheduledUtilization               .42521    
+Table 24.NumberSeized                       3.0000    
+Table 24.ScheduledUtilization               .40660    
+Table 25.NumberSeized                       3.0000    
+Table 25.ScheduledUtilization               .27229    
+Table 26.NumberSeized                       3.0000    
+Table 26.ScheduledUtilization               .43157    
+Table 27.NumberSeized                       1.0000    
+Table 27.ScheduledUtilization               .14744    
+Table 28.NumberSeized                       3.0000    
+Table 28.ScheduledUtilization               .26605    
+Table 29.NumberSeized                       1.0000    
+Table 29.ScheduledUtilization               .33254    
+Table 30.NumberSeized                       3.0000    
+Table 30.ScheduledUtilization               .10881    
+Table 31.NumberSeized                       4.0000    
+Table 31.ScheduledUtilization               .60457    
+Table 32.NumberSeized                       4.0000    
+Table 32.ScheduledUtilization               .39506    
+Table 33.NumberSeized                       4.0000    
+Table 33.ScheduledUtilization               .18587    
+Table 34.NumberSeized                       1.0000    
+Table 34.ScheduledUtilization               .11957    
+Table 35.NumberSeized                       3.0000    
+Table 35.ScheduledUtilization               .57702    
+Table 36.NumberSeized                       3.0000    
+Table 36.ScheduledUtilization               .56368    
+Table 37.NumberSeized                       2.0000    
+Table 37.ScheduledUtilization               .39568    
+Table 38.NumberSeized                       1.0000    
+Table 38.ScheduledUtilization               .64424    
+Table 39.NumberSeized                       4.0000    
+Table 39.ScheduledUtilization               .36967    
+Table 40.NumberSeized                       5.0000    
+Table 40.ScheduledUtilization               .74940    
+Table 41.NumberSeized                       6.0000    
+Table 41.ScheduledUtilization               .74902    
+Table 42.NumberSeized                       6.0000    
+Table 42.ScheduledUtilization               .47725    
+Table 43.NumberSeized                       2.0000    
+Table 43.ScheduledUtilization               .29493    
+Table 44.NumberSeized                       4.0000    
+Table 44.ScheduledUtilization               .42460    
+Table 45.NumberSeized                       3.0000    
+Table 45.ScheduledUtilization               .32805    
+Table 46.NumberSeized                       2.0000    
+Table 46.ScheduledUtilization               .36273    
+Table 47.NumberSeized                       3.0000    
+Table 47.ScheduledUtilization               .32513    
+Table 48.NumberSeized                       3.0000    
+Table 48.ScheduledUtilization               .41184    
+Table 49.NumberSeized                       5.0000    
+Table 49.ScheduledUtilization               .56703    
+Table 50.NumberSeized                       3.0000    
+Table 50.ScheduledUtilization               .38739    
+Jacob.NumberSeized                          42.000    
+Jacob.ScheduledUtilization                  .09536    
+Bar Cash.NumberSeized                       51.000    
+Bar Cash.ScheduledUtilization               .21514    
+Mikki.NumberSeized                          .00000    
+Mikki.ScheduledUtilization                  .00000    
+Lynice.NumberSeized                         .00000    
+Lynice.ScheduledUtilization                 .00000    
+System.NumberOut                            166.00    
+
+
+                                      ARENA Simulation Results
+                                      Jacob - License: STUDENT
+
+                                  Output Summary for 5 Replications
+
+Project: Unnamed Project                                             Run execution date :12/10/2015
+Analyst: Jacob                                                       Model revision date:12/10/2015
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Customer.NumberIn                           190.80     22.128     163.00     208.00     5
+Customer.NumberOut                          165.00     19.570     141.00     185.00     5
+Gold Fish.NumberIn                          25.000     .00000     25.000     25.000     5
+Gold Fish.NumberOut                         .00000     .00000     .00000     .00000     5
+Wade.NumberSeized                           61.400     10.446     53.000     72.000     5
+Wade.ScheduledUtilization                   .21579     .03745     .17987     .25066     5
+Tommie.NumberSeized                         45.600     3.8864     41.000     49.000     5
+Tommie.ScheduledUtilization                 .11051     .02189     .08667     .12646     5
+Table 10.NumberSeized                       3.6000     1.8827     1.0000     5.0000     5
+Table 10.ScheduledUtilization               .36707     .12403     .26151     .49517     5
+Table 11.NumberSeized                       4.2000     2.2208     2.0000     7.0000     5
+Table 11.ScheduledUtilization               .37414     .22009     .16795     .56407     5
+Table 12.NumberSeized                       3.0000     1.9629     1.0000     5.0000     5
+Table 12.ScheduledUtilization               .39334     .22898     .16685     .61362     5
+Table 13.NumberSeized                       3.4000     1.8827     2.0000     5.0000     5
+Table 13.ScheduledUtilization               .35438     .15212     .24551     .53514     5
+Table 14.NumberSeized                       2.2000     1.6186     1.0000     4.0000     5
+Table 14.ScheduledUtilization               .15998     .17342     .02042     .35238     5
+Table 15.NumberSeized                       2.8000     1.0386     2.0000     4.0000     5
+Table 15.ScheduledUtilization               .40461     .27198     .15274     .64793     5
+Table 16.NumberSeized                       3.2000     2.2208     2.0000     6.0000     5
+Table 16.ScheduledUtilization               .28001     .18188     .12474     .49811     5
+Table 17.NumberSeized                       2.6000     1.1104     2.0000     4.0000     5
+Table 17.ScheduledUtilization               .29048     .22173     .01594     .46779     5
+Table 18.NumberSeized                       2.2000     1.3599     1.0000     4.0000     5
+Table 18.ScheduledUtilization               .33752     .15734     .20327     .50842     5
+Table 1.NumberSeized                        3.2000     1.0386     2.0000     4.0000     5
+Table 1.ScheduledUtilization                .46952     .13893     .33612     .58560     5
+Table 19.NumberSeized                       3.4000     1.8827     2.0000     6.0000     5
+Table 19.ScheduledUtilization               .33100     .07114     .24901     .40339     5
+Table 2.NumberSeized                        3.8000     1.3599     2.0000     5.0000     5
+Table 2.ScheduledUtilization                .45492     .25966     .22574     .68108     5
+Table 3.NumberSeized                        4.4000     2.4200     2.0000     7.0000     5
+Table 3.ScheduledUtilization                .45029     .17981     .24747     .60253     5
+Table 4.NumberSeized                        3.0000     1.2414     2.0000     4.0000     5
+Table 4.ScheduledUtilization                .44009     .19519     .21750     .58639     5
+Table 5.NumberSeized                        3.4000     1.4154     2.0000     5.0000     5
+Table 5.ScheduledUtilization                .42666     .26356     .17354     .69142     5
+Table 6.NumberSeized                        4.0000     1.5204     3.0000     6.0000     5
+Table 6.ScheduledUtilization                .44137     .17868     .27717     .64050     5
+Table 7.NumberSeized                        4.2000     1.0386     3.0000     5.0000     5
+Table 7.ScheduledUtilization                .44617     .09320     .32391     .52859     5
+Table 8.NumberSeized                        4.0000     2.9114     2.0000     7.0000     5
+Table 8.ScheduledUtilization                .50752     .19639     .35255     .68996     5
+Table 9.NumberSeized                        3.6000     1.4154     2.0000     5.0000     5
+Table 9.ScheduledUtilization                .44551     .15879     .25717     .61236     5
+Barista.NumberSeized                        54.400     14.034     43.000     73.000     5
+Barista.ScheduledUtilization                .31987     .07898     .26159     .42456     5
+Table 20.NumberSeized                       2.8000     1.3599     2.0000     4.0000     5
+Table 20.ScheduledUtilization               .37643     .23146     .14305     .57533     5
+Table 21.NumberSeized                       3.8000     1.6186     3.0000     6.0000     5
+Table 21.ScheduledUtilization               .49925     .17576     .36282     .66823     5
+Table 22.NumberSeized                       2.6000     1.1104     1.0000     3.0000     5
+Table 22.ScheduledUtilization               .34745     .14847     .19806     .51653     5
+Table 23.NumberSeized                       3.0000     1.9629     1.0000     5.0000     5
+Table 23.ScheduledUtilization               .30958     .15340     .18166     .45326     5
+Table 24.NumberSeized                       2.2000     1.0386     1.0000     3.0000     5
+Table 24.ScheduledUtilization               .32600     .17495     .13161     .50374     5
+Table 25.NumberSeized                       2.8000     2.5442     1.0000     6.0000     5
+Table 25.ScheduledUtilization               .23572     .10599     .10950     .34146     5
+Table 26.NumberSeized                       3.6000     1.8827     2.0000     6.0000     5
+Table 26.ScheduledUtilization               .27675     .18383     .05829     .43157     5
+Table 27.NumberSeized                       2.6000     2.2552     1.0000     5.0000     5
+Table 27.ScheduledUtilization               .25916     .14669     .12723     .40163     5
+Table 28.NumberSeized                       2.2000     1.3599     1.0000     3.0000     5
+Table 28.ScheduledUtilization               .25486     .16675     .02150     .34264     5
+Table 29.NumberSeized                       1.8000     1.0386     1.0000     3.0000     5
+Table 29.ScheduledUtilization               .25077     .14667     .09413     .36246     5
+Table 30.NumberSeized                       2.8000     1.0386     2.0000     4.0000     5
+Table 30.ScheduledUtilization               .17780     .11234     .10881     .33355     5
+Table 31.NumberSeized                       3.0000     2.3225     .00000     5.0000     5
+Table 31.ScheduledUtilization               .39866     .33004     .00000     .67268     5
+Table 32.NumberSeized                       3.8000     1.6186     2.0000     5.0000     5
+Table 32.ScheduledUtilization               .39516     .16409     .26628     .60989     5
+Table 33.NumberSeized                       3.0000     1.7557     1.0000     4.0000     5
+Table 33.ScheduledUtilization               .16393     .08672     .05537     .23486     5
+Table 34.NumberSeized                       2.4000     1.6656     1.0000     4.0000     5
+Table 34.ScheduledUtilization               .23825     .24871     .04606     .45805     5
+Table 35.NumberSeized                       2.6000     1.4154     1.0000     4.0000     5
+Table 35.ScheduledUtilization               .36956     .27386     .02045     .57702     5
+Table 36.NumberSeized                       2.8000     1.0386     2.0000     4.0000     5
+Table 36.ScheduledUtilization               .31592     .19985     .18266     .56368     5
+Table 37.NumberSeized                       3.6000     1.8827     2.0000     5.0000     5
+Table 37.ScheduledUtilization               .39263     .30278     .08034     .74343     5
+Table 38.NumberSeized                       2.6000     1.8827     1.0000     5.0000     5
+Table 38.ScheduledUtilization               .44104     .24264     .19834     .64424     5
+Table 39.NumberSeized                       3.2000     2.3880     1.0000     6.0000     5
+Table 39.ScheduledUtilization               .33280     .24073     .08905     .60688     5
+Table 40.NumberSeized                       4.2000     2.0399     2.0000     6.0000     5
+Table 40.ScheduledUtilization               .36801     .31816     .10967     .74940     5
+Table 41.NumberSeized                       2.4000     2.5743     1.0000     6.0000     5
+Table 41.ScheduledUtilization               .37823     .36713     .01328     .74902     5
+Table 42.NumberSeized                       3.6000     1.8827     2.0000     6.0000     5
+Table 42.ScheduledUtilization               .37448     .20074     .10479     .51597     5
+Table 43.NumberSeized                       2.8000     1.0386     2.0000     4.0000     5
+Table 43.ScheduledUtilization               .52039     .21729     .29493     .71597     5
+Table 44.NumberSeized                       3.6000     .67998     3.0000     4.0000     5
+Table 44.ScheduledUtilization               .29320     .14839     .14706     .42460     5
+Table 45.NumberSeized                       2.6000     1.4154     1.0000     4.0000     5
+Table 45.ScheduledUtilization               .33206     .11247     .21287     .45693     5
+Table 46.NumberSeized                       2.0000     .87785     1.0000     3.0000     5
+Table 46.ScheduledUtilization               .27718     .11117     .14435     .36273     5
+Table 47.NumberSeized                       2.4000     .67998     2.0000     3.0000     5
+Table 47.ScheduledUtilization               .30356     .14987     .16464     .43020     5
+Table 48.NumberSeized                       2.8000     .55520     2.0000     3.0000     5
+Table 48.ScheduledUtilization               .28007     .22348     .03545     .46075     5
+Table 49.NumberSeized                       3.2000     1.6186     2.0000     5.0000     5
+Table 49.ScheduledUtilization               .31918     .21867     .15987     .56703     5
+Table 50.NumberSeized                       2.6000     .67998     2.0000     3.0000     5
+Table 50.ScheduledUtilization               .48018     .16971     .31386     .64434     5
+Jacob.NumberSeized                          42.600     8.8484     34.000     52.000     5
+Jacob.ScheduledUtilization                  .09471     .03445     .05579     .12566     5
+Bar Cash.NumberSeized                       58.200     10.729     49.000     70.000     5
+Bar Cash.ScheduledUtilization               .23743     .03743     .20189     .27440     5
+Mikki.NumberSeized                          .00000     .00000     .00000     .00000     5
+Mikki.ScheduledUtilization                  .00000     .00000     .00000     .00000     5
+Lynice.NumberSeized                         .00000     .00000     .00000     .00000     5
+Lynice.ScheduledUtilization                 .00000     .00000     .00000     .00000     5
+System.NumberOut                            165.00     19.570     141.00     185.00     5
+
+Simulation run time: 0.15 minutes.
+Simulation run complete.

@@ -1,0 +1,114 @@
+[RESOURCES]
+Wade
+Tommie
+Table 10
+Table 11
+Table 12
+Table 13
+Table 14
+Table 15
+Table 16
+Table 17
+Table 18
+Table 1
+Table 19
+Table 2
+Table 3
+Table 4
+Table 5
+Table 6
+Table 7
+Table 8
+Table 9
+Barista
+Table 20
+Table 21
+Table 22
+Table 23
+Table 24
+Table 25
+Table 26
+Table 27
+Table 28
+Table 29
+Table 30
+Table 31
+Table 32
+Table 33
+Table 34
+Table 35
+Table 36
+Table 37
+Table 38
+Table 39
+Table 40
+Table 41
+Table 42
+Table 43
+Table 44
+Table 45
+Table 46
+Table 47
+Table 48
+Table 49
+Table 50
+Bar Cash
+Mikki
+Lynice
+[VARIABLES]
+Special Order Or Cash Out.NumberOut True
+Dining Area Or Leave?.NumberOut True
+Sandwich Level
+Time To Make and Deliver GandG.NumberOut
+Dispose 12.NumberOut
+Extra Item.NumberOut True
+Time To Make and Deliver GandG.NumberIn
+Demand
+Cash Register.NumberIn
+Special Order Or Cash Out.NumberOut False
+Arrive.NumberOut
+Max Sandwich
+Extra Item.NumberOut False
+Max Salad
+Time to Make and Deliver Pizza.NumberOut
+Dispose 11.NumberOut
+Small GandG
+No need food cook leaves.NumberOut
+Cash Out.NumberOut
+Soup Level
+Barista Or Food?.NumberOut True
+Get Food?.NumberOut False
+Dining Process.NumberIn
+Barista Or Food?.NumberOut False
+Get Food?.NumberOut True
+Small Pizza
+Barista Or Cashier?.NumberOut True
+Time To Make and Deliver Sandwich.NumberIn
+Max Soup
+Special Order.NumberIn
+Time To Make And Deliver Salad.NumberOut
+Barista Or Cashier?.NumberOut False
+Time To Make and Deliver Soup.NumberOut
+Time To Make And Deliver Salad.NumberIn
+Call For Cook.NumberOut
+Small Sandwich
+Sit Down Or Leave.NumberOut False
+Time To Make and Deliver Sandwich.NumberOut
+Dining Area Or Leave?.NumberOut False
+Pizza Level
+Cash Register.NumberOut
+Food Service Time.NumberOut
+Max GandG
+Time To Make and Deliver Soup.NumberIn
+GandGLevel
+Dining Process.NumberOut
+Cash Out.NumberIn
+Time to Make and Deliver Pizza.NumberIn
+Max Pizza
+Salad Level
+Food Service Time.NumberIn
+Sit Down Or Leave.NumberOut True
+Special Order.NumberOut
+Create Gold Fish.NumberOut
+Small Salad
+Small Soup
