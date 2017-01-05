@@ -9,7 +9,7 @@ Requirements
 =============
 
 •	Download Arena Simulation software https://www.arenasimulation.com/simulation-software-download </br>
-•	Download @Risk here http://www.palisade.com/risk/
+•	Download @Risk here http://www.palisade.com/risk/ </br>
 •	NOTE! in order to run the simulation in Arena you must run any of the .doe files stored in the Simulation Files directory
 
 ================
