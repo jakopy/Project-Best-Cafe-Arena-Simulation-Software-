@@ -1,10 +1,10 @@
-=============
+
 The Purpose
 =============
 
 This project was created to provide a way of tracking visitor behavior in the café to help management determine ways to improve the overall experience of the museum.
 
-=============
+
 Requirements
 =============
 
@@ -12,14 +12,14 @@ Requirements
 •	Download @Risk here http://www.palisade.com/risk/ </br>
 •	NOTE! in order to run the simulation in Arena you must run any of the .doe files stored in the Simulation Files directory
 
-================
+
 Process Summary
 ================
 1.	Data was collected by hand by use of a timer and inputting the information into an excel document.
 2.	Analysis of the data collected was done through @Risk an excel add-in.
 3.	The data was then simulated with Arena Simulation Software. 
 
-===========================
+
 The Benefits of Simulation
 ===========================
 
@@ -32,7 +32,7 @@ The possible benefits that would result in utilizing simulation analytical metho
 •	A wait time analysis could be beneficial information for visitors and a selling point of the museum to attract more visitors</br>
 •	Additional analytics can be completed by adding additional variables to test and see how an increase in price or an increase in the number of employees may affect the overwhelming crowds on Thursday and Friday nights.</br>
 
-===========
+
 The Data
 ===========
 The data was collected over the span of 6 days. The type of data that was collected over the span of 6 days varied because I was the only person collecting data. The types of data that I collected over the 6 days are listed below.</br>
